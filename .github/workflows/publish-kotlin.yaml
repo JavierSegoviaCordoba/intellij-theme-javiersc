@@ -9,8 +9,8 @@ jobs:
   publish:
     uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/publish-kotlin.yaml@main
     with:
-      #TODO: machines: '"{{ machines }}"'
-      #TODO: gradle-plugin-portal: "{{ gradle_plugin_portal }}"
+      machines: 'ubuntu-latest'
+      gradle-plugin-portal: false
     secrets:
       GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       OSS_USER: '${{ secrets.OSS_USER }}'

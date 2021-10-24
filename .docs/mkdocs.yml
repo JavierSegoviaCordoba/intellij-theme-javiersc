@@ -1,10 +1,10 @@
-site_name: '"{{ name }}"'
-site_description: '"{{ description }}"'
+site_name: 'IntelliJ IDEA theme - JavierSC'
+site_description: 'JavierSC light and dark themes for IntelliJ IDEA'
 site_author: 'Javier Segovia Córdoba'
 remote_branch: gh-pages
 
-repo_name: '"{{ name }}"'
-repo_url: 'https://github.com/JavierSegoviaCordoba/"{{ repo }}"'
+repo_name: 'intellij-theme-javiersc'
+repo_url: 'https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc'
 
 copyright: 'Copyright &copy; 2021 Javier Segovia Córdoba'
 
