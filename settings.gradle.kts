@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 
-include(":library")
+include(":theme")
