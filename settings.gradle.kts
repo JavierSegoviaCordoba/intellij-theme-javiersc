@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 
-include(":theme")
+include(":theme-javiersc")
