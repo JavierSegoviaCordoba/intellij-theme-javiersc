@@ -1,5 +1,6 @@
 [versions]
 android = "7.0.3"
+intellij = "1.2.0"
 javierscGradlePlugins = "0.1.0-rc.1"
 kotlin = "1.5.31"
 kotlinBinaryValidator = "0.7.1"
@@ -9,3 +10,6 @@ android-toolsBuild-gradle = { module = "com.android.tools.build:gradle", version
 javiersc-gradlePlugins-allPlugins = { module = "com.javiersc.gradle-plugins:all-plugins", version.ref = "javierscGradlePlugins" }
 jetbrains-kotlin-kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 jetbrains-kotlinx-binaryCompatibilityValidator = { module = "org.jetbrains.kotlinx:binary-compatibility-validator", version.ref = "kotlinBinaryValidator" }
+
+[plugins]
+jetbrains-intellij = { id = "org.jetbrains.intellij", version.ref = "intellij" }
