@@ -5,6 +5,7 @@
 ### Added
 
 ### Changed
+- `pluginUntilBuild` is empty so it looks the latest IDEA compatible version 
 
 ### Deprecated
 
