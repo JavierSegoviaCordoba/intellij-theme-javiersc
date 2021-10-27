@@ -5,7 +5,6 @@
 ### Added
 
 ### Changed
-- `pluginUntilBuild` is empty so it looks the latest IDEA compatible version 
 
 ### Deprecated
 
@@ -16,10 +15,15 @@
 ### Updated
 
 
+## [0.1.2] - 2021-10-27
+
+### Changed
+- `pluginUntilBuild` is empty so it looks the latest IDEA compatible version 
+
 ## [0.1.1] - 2021-10-27
 
 ### Changed
-- Completion popups colors 
+- Completion popups colors
 
 ## [0.1.0] - 2021-10-24
 - No changes
