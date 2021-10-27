@@ -28,6 +28,7 @@
     <option name="METHOD_SEPARATORS_COLOR" value="2f333d" />
     <option name="ScrollBar.thumbColor" value="404040" />
     <option name="TEARLINE_COLOR" value="2f333d" />
+    <option name="LOOKUP_COLOR" value="21242b" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">

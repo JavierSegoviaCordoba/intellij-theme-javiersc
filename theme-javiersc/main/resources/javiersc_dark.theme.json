@@ -96,8 +96,8 @@
     "ComboPopup.border": "bg4",
     "CompletionPopup": {
       "matchForeground": "fg5",
-      "selectionBackground": "bg3",
-      "selectionInactiveBackground": "bg3"
+      "selectionBackground": "bg4",
+      "selectionInactiveBackground": "bg4"
     },
     "Component": {
       "errorFocusColor": "error",
