@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.javiersc.intellij.theme</id>
     <name>IDEA Theme - JavierSC</name>
-    <vendor>JetBrains</vendor>
+    <vendor>JavierSC</vendor>
     <description>JavierSC light and dark themes for IntelliJ IDEA</description>
 
     <depends>com.intellij.modules.platform</depends>
