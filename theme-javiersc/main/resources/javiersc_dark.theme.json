@@ -19,7 +19,7 @@
     "error": "#dd394c",
     "error2": "#a52834",
     "error3": "#3d070f",
-    "error4": "#27070a",
+    "error4": "#541518",
     "warning": "#ffa400",
     "warning2": "#b47400",
     "info": "#2268f4",
@@ -154,7 +154,7 @@
       "borderColor": "bg4",
       "errorForeground": "fg2",
       "errorBackground": "error4",
-      "errorBorderColor": "error3",
+      "errorBorderColor": "error2",
       "MoreButton.innerBorderColor": "bg1",
       "ToolWindow": {
         "informativeForeground": "fg1",
@@ -347,7 +347,7 @@
       "Objects.Blue": "#40B6E0",
       "Objects.Purple": "#b926ff",
       "Objects.BlackText": "#000000ff",
-      "Objects.YellowDark": "#dec800",
+      "Objects.YellowDark": "#f0de18",
       "Objects.GreenAndroid": "#3DD983"
     }
   }
