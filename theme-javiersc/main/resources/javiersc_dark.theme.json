@@ -14,6 +14,7 @@
     "fg1": "#DDE9FD",
     "fg2": "#979FAD",
     "fg3": "#676c77",
+    "fg4": "#fcd781",
     "fg5": "#FFD366",
     "fg6": "#fbbf47",
     "error": "#dd394c",
@@ -32,7 +33,7 @@
       "foreground": "fg2",
       "infoForeground": "fg3",
       "selectionBackground": "bg4",
-      "selectionForeground": "fg5",
+      "selectionForeground": "fg4",
       "selectionInactiveBackground": "bg3",
       "selectionBackgroundInactive": "bg3",
       "lightSelectionBackground": "bg2",
@@ -56,6 +57,12 @@
       "lineSeparatorColor": "bg4",
       "modifiedItemForeground": "fg5"
     },
+    "TitledBorder": {
+      "titleColor": "fg2"
+    },
+    "Separator": {
+      "foreground": "bg3"
+    },
     "ActionButton": {
       "hoverBackground": "bg3",
       "hoverBorderColor": "bg3",
@@ -63,6 +70,7 @@
       "pressedBorderColor": "bg4"
     },
     "Button": {
+      "background": "bg3",
       "foreground": "fg1",
       "startBackground": "bg4",
       "endBackground": "bg4",
@@ -195,7 +203,7 @@
         "installBorderColor": "fg5",
         "installBackground": "fg5",
         "installFillForeground": "fg5",
-        "installFillBackground": "bg1",
+        "installFillBackground": "bg3",
         "updateForeground": "fg2",
         "updateBackground": "fg5",
         "updateBorderColor": "fg5"
@@ -350,5 +358,28 @@
       "Objects.YellowDark": "#f0de18",
       "Objects.GreenAndroid": "#3DD983"
     }
+  },
+  "material": {
+    "background": "#282c34",
+    "foreground": "#979fad",
+    "primaryColor": "#979fad",
+    "selectionBackground": "#444a54",
+    "selectionForeground": "#ffffff",
+    "button": "#3a3f4b",
+    "second": "#2f333d",
+    "disabled": "#6b727d",
+    "contrast": "#21252b",
+    "border": "#2f333d",
+    "active": "#383e49",
+    "highlight": "#383e49",
+    "tree": "#3a3f4b80",
+    "notifications": "#282c34",
+    "accent": "#ffd366",
+    "excluded": "#3c4150",
+    "branchColor": "#979fadff",
+    "mergeCommits": "#3a3f4bff",
+    "tab.backgroundColor": "#282c34ff",
+    "tab.borderColor": "#ffd366ff",
+    "tagColor": "#979fadff"
   }
 }
