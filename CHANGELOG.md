@@ -5,17 +5,23 @@
 ### Added
 
 ### Changed
-- `Button` colors
 
 ### Deprecated
 
 ### Removed
 
 ### Fixed
-- `ArrowButton.iconColor`
 
 ### Updated
 
+
+## [0.2.1] - 2021-10-29
+
+### Changed
+- `Button` colors
+
+### Fixed
+- `ArrowButton.iconColor`
 
 ## [0.2.0] - 2021-10-29
 - No changes
