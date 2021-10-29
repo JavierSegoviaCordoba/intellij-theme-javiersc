@@ -5,6 +5,7 @@
 ### Added
 
 ### Changed
+- `selectionForeground`
 
 ### Deprecated
 

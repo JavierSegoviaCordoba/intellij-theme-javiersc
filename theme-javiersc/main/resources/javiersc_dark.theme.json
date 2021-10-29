@@ -33,7 +33,7 @@
       "foreground": "fg2",
       "infoForeground": "fg3",
       "selectionBackground": "bg4",
-      "selectionForeground": "fg4",
+      "selectionForeground": "fg1",
       "selectionInactiveBackground": "bg3",
       "selectionBackgroundInactive": "bg3",
       "lightSelectionBackground": "bg2",
