@@ -31,5 +31,6 @@ jobs:
       machines: 'ubuntu-latest'
       stage: '${{ github.event.inputs.stage }}'
       scope: '${{ github.event.inputs.scope }}'
+      gradle-cache-disabled: true
     secrets:
       TOKEN_GITHUB_ACTION: '${{ secrets.TOKEN_GITHUB_ACTION }}'
