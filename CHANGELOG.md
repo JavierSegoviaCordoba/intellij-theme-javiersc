@@ -14,11 +14,12 @@
 
 ### Updated
 
+## [0.2.0] - 2021-10-29
 
 ## [0.1.2] - 2021-10-27
 
 ### Changed
-- `pluginUntilBuild` is empty so it looks the latest IDEA compatible version 
+- `pluginUntilBuild` is empty so it looks the latest IDEA compatible version
 
 ## [0.1.1] - 2021-10-27
 
