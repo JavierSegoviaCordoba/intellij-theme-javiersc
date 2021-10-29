@@ -96,7 +96,7 @@
       "nonEditableBackground": "bg2",
       "background": "bg3",
       "ArrowButton": {
-        "iconColor": "fg4",
+        "iconColor": "fg3",
         "disabledIconColor": "fg3",
         "nonEditableBackground": "bg3"
       }

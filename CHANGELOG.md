@@ -11,6 +11,7 @@
 ### Removed
 
 ### Fixed
+- `ArrowButton.iconColor`
 
 ### Updated
 
