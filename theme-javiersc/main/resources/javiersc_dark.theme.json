@@ -70,22 +70,22 @@
       "pressedBorderColor": "bg4"
     },
     "Button": {
-      "background": "bg3",
+      "background": "bg1",
       "foreground": "fg1",
       "startBackground": "bg4",
       "endBackground": "bg4",
-      "startBorderColor": "bg4",
-      "endBorderColor": "bg4",
-      "shadowColor": "bg1",
+      "startBorderColor": "#00000000",
+      "endBorderColor": "#00000000",
+      "shadowColor": "#00000000",
       "default": {
         "foreground": "bg1",
         "startBackground": "fg5",
         "endBackground": "fg5",
-        "startBorderColor": "fg5",
-        "endBorderColor": "fg5",
+        "startBorderColor": "#00000000",
+        "endBorderColor": "#00000000",
         "focusedBorderColor": "fg6",
         "focusColor": "fg6",
-        "shadowColor": "bg1"
+        "shadowColor": "#00000000"
       }
     },
     "Borders": {

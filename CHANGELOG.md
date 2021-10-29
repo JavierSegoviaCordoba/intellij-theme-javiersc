@@ -5,6 +5,7 @@
 ### Added
 
 ### Changed
+- `Button` colors
 
 ### Deprecated
 
@@ -15,7 +16,9 @@
 
 ### Updated
 
+
 ## [0.2.0] - 2021-10-29
+- No changes
 
 ## [0.1.2] - 2021-10-27
 
