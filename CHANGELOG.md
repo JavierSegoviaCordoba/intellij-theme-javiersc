@@ -6,6 +6,8 @@
 
 ### Changed
 - `selectionForeground`
+- `Actions.Red`
+- `Actions.Green`
 
 ### Deprecated
 
