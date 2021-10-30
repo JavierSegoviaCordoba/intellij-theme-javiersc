@@ -15,7 +15,6 @@ jobs:
       publish-gradle-plugin-portal: false
       publish-jetbrains-marketplace: true
       publish-docs: false
-      gradle-cache-disabled: true
     secrets:
       GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       OSS_USER: '${{ secrets.OSS_USER }}'
