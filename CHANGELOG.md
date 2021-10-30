@@ -14,6 +14,7 @@
 ### Fixed
 
 ### Updated
+- `org.jetbrains.intellij:org.jetbrains.intellij.gradle.plugin -> 1.2.1`
 
 
 ## [0.2.1] - 2021-10-29
