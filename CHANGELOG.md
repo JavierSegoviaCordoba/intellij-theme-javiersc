@@ -5,9 +5,6 @@
 ### Added
 
 ### Changed
-- `selectionForeground`
-- `Actions.Red`
-- `Actions.Green`
 
 ### Deprecated
 
@@ -16,8 +13,17 @@
 ### Fixed
 
 ### Updated
-- `org.jetbrains.intellij:org.jetbrains.intellij.gradle.plugin -> 1.2.1`
 
+
+## [0.2.2] - 2021-10-30
+
+### Changed
+- `selectionForeground`
+- `Actions.Red`
+- `Actions.Green`
+
+### Updated
+- `org.jetbrains.intellij:org.jetbrains.intellij.gradle.plugin -> 1.2.1`
 
 ## [0.2.1] - 2021-10-29
 
