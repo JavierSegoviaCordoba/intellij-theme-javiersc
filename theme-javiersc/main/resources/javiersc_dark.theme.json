@@ -251,8 +251,8 @@
     "SearchOption.selectedBackground": "bg4",
     "SpeedSearch": {
       "foreground": "fg2",
-      "borderColor": "bg2",
-      "background": "bg2",
+      "borderColor": "bg3",
+      "background": "bg3",
       "errorForeground": "error"
     },
     "StatusBar.borderColor": "bg1",
