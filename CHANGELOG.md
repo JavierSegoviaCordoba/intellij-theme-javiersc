@@ -5,18 +5,26 @@
 ### Added
 
 ### Changed
-- `SpeedSearch` colors
 
 ### Deprecated
 
 ### Removed
 
 ### Fixed
+
+### Updated
+
+
+## [0.2.3] - 2021-11-05
+
+### Changed
+- `SpeedSearch` colors
+
+### Fixed
 - compatibility: Abstract method `TypeVariable.getAnnotatedBounds()` is not implemented
 
 ### Updated
 - `gradle -> 7.3-rc-3`
-
 
 ## [0.2.2] - 2021-10-30
 
