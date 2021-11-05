@@ -12,6 +12,7 @@
 ### Removed
 
 ### Fixed
+- compatibility: Abstract method `TypeVariable.getAnnotatedBounds()` is not implemented
 
 ### Updated
 - `gradle -> 7.3-rc-3`
