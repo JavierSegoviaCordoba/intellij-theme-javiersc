@@ -13,7 +13,7 @@
 ### Fixed
 
 ### Updated
-- `gradle -> 7.3-rc-5`
+- `gradle -> 7.3`
 - `org.jetbrains.kotlinx:binary-compatibility-validator -> 0.8.0`
 
 
