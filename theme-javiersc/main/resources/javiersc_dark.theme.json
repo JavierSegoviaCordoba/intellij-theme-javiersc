@@ -113,7 +113,8 @@
       "warningFocusColor": "warning",
       "inactiveWarningFocusColor": "warning2",
       "iconColor": "bg5",
-      "hoverIconColor": "bg6"
+      "hoverIconColor": "bg6",
+      "infoForeground": "fg1"
     },
     "Counter": {
       "background": "fg6",
@@ -168,10 +169,10 @@
         "informativeForeground": "fg1",
         "informativeBackground": "info2",
         "informativeBorderColor": "info",
-        "warningForeground": "fg2",
+        "warningForeground": "fg1",
         "warningBackground": "warning2",
         "warningBorderColor": "warning",
-        "errorForeground": "fg2",
+        "errorForeground": "fg1",
         "errorBackground": "error2",
         "errorBorderColor": "error"
       }
