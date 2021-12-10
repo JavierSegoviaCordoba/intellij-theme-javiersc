@@ -7,5 +7,4 @@ plugins {
     `javiersc-docs`
     `javiersc-nexus`
     `javiersc-readme-badges-generator`
-    `kotlinx-binary-compatibility-validator`
 }
