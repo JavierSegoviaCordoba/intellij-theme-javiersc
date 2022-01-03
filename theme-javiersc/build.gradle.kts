@@ -2,7 +2,7 @@ import org.jetbrains.changelog.ChangelogPluginExtension
 
 plugins {
     `kotlin-jvm`
-    `javiersc-kotlin-library`
+    `javiersc-kotlin-config`
     alias(pluginLibs.plugins.jetbrains.intellij)
 }
 
