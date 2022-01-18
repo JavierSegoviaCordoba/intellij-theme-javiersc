@@ -14,6 +14,7 @@
 
 ### Updated
 
+- `org.jetbrains.intellij:org.jetbrains.intellij.gradle.plugin -> 1.3.1`
 - `com.javiersc.gradle-plugins:all-plugins -> 0.1.0-rc.39`
 - `gradle -> 7.3.3`
 - `org.jetbrains.kotlin:kotlin-gradle-plugin -> 1.6.10`
