@@ -1,6 +1,6 @@
 [versions]
 intellij = "1.5.3"
-javierscGradlePlugins = "0.1.0-rc.42"
+javierscGradlePlugins = "0.1.0-rc.43"
 kotlin = "1.6.21"
 
 [libraries]
