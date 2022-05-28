@@ -6,13 +6,19 @@
 
 ### Changed
 
-- Notification background color
-
 ### Deprecated
 
 ### Removed
 
 ### Fixed
+
+### Updated
+
+## [0.2.5] - 2022-05-28
+
+### Changed
+
+- Notification background color
 
 ### Updated
 
