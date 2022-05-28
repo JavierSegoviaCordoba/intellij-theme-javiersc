@@ -12,9 +12,9 @@ jobs:
       publish-maven-central: false
       publish-gradle-plugin-portal: false
       publish-jetbrains-marketplace: true
+      publish-docs: false
       deploy-reports: false
-      deploy-docs: false
-      github-release: false
+      publish-github-release: false
     secrets:
       OSS_USER: '${{ secrets.OSS_USER }}'
       OSS_TOKEN: '${{ secrets.OSS_TOKEN }}'
