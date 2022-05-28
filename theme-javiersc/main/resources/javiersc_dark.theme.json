@@ -162,7 +162,7 @@
       "foreground": "fg1",
       "borderColor": "bg4",
       "errorForeground": "fg2",
-      "errorBackground": "error4",
+      "errorBackground": "bg2",
       "errorBorderColor": "error2",
       "MoreButton.innerBorderColor": "bg1",
       "ToolWindow": {
@@ -170,7 +170,7 @@
         "informativeBackground": "info2",
         "informativeBorderColor": "info",
         "warningForeground": "fg1",
-        "warningBackground": "warning2",
+        "warningBackground": "bg2",
         "warningBorderColor": "warning",
         "errorForeground": "fg1",
         "errorBackground": "error2",

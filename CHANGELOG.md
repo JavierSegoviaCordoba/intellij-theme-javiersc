@@ -6,6 +6,8 @@
 
 ### Changed
 
+- Notification background color
+
 ### Deprecated
 
 ### Removed
