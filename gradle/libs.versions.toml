@@ -1,3 +1,9 @@
+[versions]
+hubdle = "0.2.0-alpha.15"
+kotlin = "1.7.0"
+
 [libraries]
-jetbrains-kotlin-kotlinTest = { module = "org.jetbrains.kotlin:kotlin-test" }
-jetbrains-kotlin-kotlinTestJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit" }
+jetbrains-kotlin-kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[plugins]
+javiersc-hubdle = { id = "com.javiersc.hubdle", version.ref = "hubdle" }
