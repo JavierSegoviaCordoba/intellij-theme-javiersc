@@ -14,8 +14,8 @@
 
 ### Updated
 
+- `com.javiersc.hubdle:com.javiersc.hubdle.gradle.plugin -> 0.2.0-alpha.27`
 - `gradle -> 7.5`
-- `com.javiersc.hubdle:com.javiersc.hubdle.gradle.plugin -> 0.2.0-alpha.26`
 - `org.jetbrains.kotlin:kotlin-gradle-plugin -> 1.7.10`
 
 ## [0.2.5] - 2022-05-28
