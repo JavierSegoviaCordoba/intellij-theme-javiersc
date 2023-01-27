@@ -8,11 +8,11 @@ hubdle {
             changelog()
             readme {
                 badges {
-                    coverage = false
-                    mavenCentral = false
-                    quality = false
-                    snapshots = false
-                    techDebt = false
+                    coverage.set(false)
+                    mavenCentral.set(false)
+                    quality.set(false)
+                    snapshots.set(false)
+                    techDebt.set(false)
                 }
             }
             site()

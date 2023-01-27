@@ -12,6 +12,12 @@ hubdle {
         publishing()
     }
     kotlin {
-        intellijPlugin()
+        jvm {
+            features {
+                intellij {
+                    plugin()
+                }
+            }
+        }
     }
 }
