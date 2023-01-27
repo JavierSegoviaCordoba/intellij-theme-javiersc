@@ -7,6 +7,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="9c995c89-8c6f-44fc-b41b-73d43dab952d" path="javiersc_dark.theme.json"/>
+        <themeProvider id="com.javiersc.intellij.light" path="javiersc_light.theme.json" />
+        <themeProvider id="com.javiersc.intellij.dark" path="javiersc_dark.theme.json" />
     </extensions>
 </idea-plugin>

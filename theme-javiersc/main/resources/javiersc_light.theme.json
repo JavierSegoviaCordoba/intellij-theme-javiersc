@@ -1,54 +1,54 @@
 {
   "author": "Javier Segovia Córdoba",
   "colors": {
-    "background": "#1B1F24",
+    "background": "#FFFFFF",
     "debug1": "#ef4bff",
     "debug2": "#cf00e0",
     "debug3": "#a341f7",
     "debug4": "#6901a1",
     "debugA": "#45ff0d",
     "debugB": "#01c416",
-    "error": "#af2323",
-    "errorContainer": "#3f1a1a",
-    "info": "#1883ef",
-    "infoContainer": "#0b2549",
-    "onBackground": "#979FAD",
+    "error": "#ff5b5b",
+    "errorContainer": "#ffe7e7",
+    "info": "#00a3ec",
+    "infoContainer": "#c2ecff",
+    "onBackground": "#0B0B0B",
     "onError": "#FFFFFF",
-    "onErrorContainer": "#fe9797",
+    "onErrorContainer": "#e00000",
     "onInfo": "#FFFFFF",
-    "onInfoContainer": "#8fd2fe",
-    "onPrimary": "#101010",
-    "onPrimaryContainer": "#f5f5f5",
+    "onInfoContainer": "#007daa",
+    "onPrimary": "#FFFFFF",
+    "onPrimaryContainer": "#0058c3",
     "onSecondary": "#967300",
-    "onSecondaryContainer": "#FFDCA4",
-    "onSurface": "#979FAD",
-    "onSurface12": "#2d2e35",
-    "onSurface38": "#5b6068",
-    "onSurface76": "#767b82",
+    "onSecondaryContainer": "#745b00",
+    "onSurface": "#272b2e",
+    "onSurface12": "#dbdde2",
+    "onSurface38": "#b4b4b6",
+    "onSurface76": "#5d5d5d",
     "onTertiary": "#FFFFFF",
     "onWarning": "#FFFFFF",
-    "onWarningContainer": "#fef19c",
-    "outline": "#2F333D",
-    "outlineVariant": "#2F333D",
-    "primary": "#FFD366",
-    "primaryContainer": "#1B1F24",
-    "primarySurface0": "#42455380",
-    "primarySurface00": "#2E323C",
-    "primarySurface1": "#a6b0da33",
-    "primarySurface11": "#373C49",
+    "onWarningContainer": "#aa6b00",
+    "outline": "#7d7675",
+    "outlineVariant": "#e1e5e9",
+    "primary": "#0f6bda",
+    "primaryContainer": "#F7F8FA",
+    "primarySurface0": "#d6d6d680",
+    "primarySurface00": "#e4e4e4",
+    "primarySurface1": "#a4ceffb3",
+    "primarySurface11": "#c3ddff",
     "secondary": "#FFDCA4",
-    "secondaryContainer": "#21242B",
-    "secondarySurface0": "#2E323C",
-    "secondarySurface1": "#373C49",
-    "surface0": "#1B1F24",
+    "secondaryContainer": "#fff9e3",
+    "secondarySurface0": "#ffecc8",
+    "secondarySurface1": "#ffe8ae",
+    "surface0": "#f2f2f5",
     "tertiary": "#47bd5a",
-    "tertiaryContainer": "#1c2a20",
+    "tertiaryContainer": "#eaffec",
     "transparent": "#FFFFFF00",
-    "warning": "#b49b0f",
-    "warningContainer": "#534a17"
+    "warning": "#FFA200",
+    "warningContainer": "#ffe8c2"
   },
-  "dark": true,
-  "editorScheme": "/javiersc_dark.xml",
+  "dark": false,
+  "editorScheme": "/javiersc_light.xml",
   "icons": {
     "ColorPalette": {
       "Actions.Blue": "#40a0e0",
@@ -58,9 +58,9 @@
       "Actions.GreyInline.Dark": "#8C929B",
       "Actions.Red": "#ca2643",
       "Actions.Yellow": "#fccb40",
-      "Checkbox.Background.Selected": "background",
+      "Checkbox.Background.Selected": "primary",
       "Checkbox.Border.Default": "onSurface",
-      "Checkbox.Border.Selected": "onSurface",
+      "Checkbox.Border.Selected": "primary",
       "Checkbox.Focus.Thin.Default": "primary",
       "Checkbox.Focus.Thin.Selected": "primary",
       "Checkbox.Focus.Wide": "transparent",
@@ -79,7 +79,7 @@
       "Objects.YellowDark": "#f0de18"
     }
   },
-  "name": "JavierSC Dark",
+  "name": "JavierSC Light",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "debug4",
@@ -143,8 +143,7 @@
         "arc": 8,
         "endBackground": "primary",
         "endBorderColor": "transparent",
-        "focusColor": "transparent",
-        "focusedBorderColor": "onPrimaryContainer",
+        "focusedBorderColor": "primary",
         "foreground": "onPrimary",
         "shadowColor": "transparent",
         "startBackground": "primary",
@@ -152,12 +151,10 @@
       },
       "disabledBorderColor": "onSurface12",
       "disabledText": "onSurface38",
-      "endBackground": "primaryContainer",
       "endBorderColor": "outline",
       "focusedBorderColor": "primary",
       "foreground": "primary",
       "shadowColor": "transparent",
-      "startBackground": "primaryContainer",
       "startBorderColor": "outline"
     },
     "CheckBox": {
@@ -178,8 +175,7 @@
       "disabledBackground": "primaryContainer",
       "disabledForeground": "onSurface38",
       "foreground": "onPrimaryContainer",
-      "nonEditableBackground": "primaryContainer",
-      "selectionBackground": "secondarySurface1",
+      "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
     },
     "ComboBoxButton": {
@@ -206,7 +202,7 @@
       "borderColor": "outline",
       "focusColor": "transparent",
       "focusedBorderColor": "primary",
-      "infoForeground": "onPrimaryContainer"
+      "infoForeground": "primary"
     },
     "Content": {
       "background": "background"
@@ -232,7 +228,7 @@
     "DragAndDrop": {
       "areaForeground": "primary",
       "borderColor": "transparent",
-      "rowBackground": "primarySurface1"
+      "rowBackground": "primarySurface0"
     },
     "Editor": {
       "background": "background",
@@ -261,14 +257,14 @@
     "EditorTabs": {
       "background": "primaryContainer",
       "borderColor": "outlineVariant",
-      "hoverBackground": "primarySurface0",
+      "hoverBackground": "primarySurface1",
       "inactiveColoredFileBackground": "primaryContainer",
-      "inactiveUnderlineColor": "secondary",
+      "inactiveUnderlineColor": "outlineVariant",
       "tabInsets": "-6,10,-3,6",
       "underlineArc": 0,
       "underlineColor": "primary",
-      "underlinedTabBackground": "primarySurface0",
-      "underlinedTabForeground": "onPrimaryContainer",
+      "underlinedTabBackground": "background",
+      "underlinedTabForeground": "onSurface",
       "underlineHeight": 5
     },
     "GotItTooltip": {
@@ -309,7 +305,7 @@
       "background": "primaryContainer",
       "Button": {
         "hoverBackground": "primarySurface1",
-        "separatorColor": "onSurface76"
+        "separatorColor": "primarySurface1"
       },
       "foreground": "onSurface",
       "rowHeight": 26,
@@ -319,7 +315,6 @@
       "selectionInactiveForeground": "onSurface"
     },
     "MainMenu": {
-      "background": "primaryContainer",
       "foreground": "onSurface",
       "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
@@ -369,12 +364,11 @@
     },
     "MenuBar": {
       "background": "primaryContainer",
-      "borderColor": "transparent",
-      "foreground": "onPrimaryContainer"
+      "borderColor": "transparent"
     },
     "MenuItem": {
-      "acceleratorForeground": "secondary",
-      "acceleratorSelectionForeground": "secondary",
+      "acceleratorForeground": "primary",
+      "acceleratorSelectionForeground": "primary",
       "background": "primaryContainer",
       "disabledForeground": "onSurface38",
       "foreground": "onSurface",
@@ -386,7 +380,7 @@
       }
     },
     "Notification": {
-      "arc": 28,
+      "arc": "28",
       "background": "background",
       "borderColor": "outline",
       "Button": {
@@ -502,7 +496,7 @@
       "foreground": "onBackground"
     },
     "ProgressBar": {
-      "indeterminateEndColor": "secondary",
+      "indeterminateEndColor": "primarySurface11",
       "indeterminateStartColor": "primary",
       "progressColor": "primary",
       "trackColor": "primarySurface0",
@@ -548,10 +542,6 @@
         "trackColor": "primaryContainer"
       }
     },
-    "ScrollPane": {
-      "background": "primaryContainer",
-      "foreground": "onSurface"
-    },
     "SearchEverywhere": {
       "Advertiser": {
         "background": "primaryContainer",
@@ -563,7 +553,7 @@
       "SearchField": {
         "background": "primaryContainer",
         "borderColor": "outlineVariant",
-        "infoForeground": "secondary"
+        "infoForeground": "primary"
       },
       "Tab": {
         "selectedBackground": "primarySurface1",
@@ -575,7 +565,7 @@
       "errorForeground": "error"
     },
     "SegmentedButton": {
-      "selectedButtonColor": "primarySurface0",
+      "selectedButtonColor": "primarySurface1",
       "selectedEndBorderColor": "primary",
       "selectedStartBorderColor": "primary"
     },
@@ -602,8 +592,7 @@
       "background": "background",
       "borderColor": "primary",
       "borderInsets": "4,4,4,2",
-      "foreground": "onPrimaryContainer",
-      "hoverBackground": "primarySurface1"
+      "foreground": "onPrimaryContainer"
     },
     "Spinner": {
       "background": "primaryContainer"
@@ -634,10 +623,10 @@
     "Table": {
       "background": "primaryContainer",
       "foreground": "onSurface",
-      "hoverBackground": "primarySurface1",
+      "hoverBackground": "primarySurface0",
       "lightSelectionBackground": "primarySurface0",
       "selectionBackground": "primarySurface0",
-      "selectionForeground": "onPrimaryContainer",
+      "selectionForeground": "primary",
       "selectionInactiveBackground": "surface0",
       "stripeColor": "secondaryContainer"
     },
@@ -705,8 +694,8 @@
       "background": "background",
       "borderColor": "primary",
       "foreground": "onBackground",
-      "infoForeground": "secondary",
-      "shortcutForeground": "secondary"
+      "infoForeground": "primary",
+      "shortcutForeground": "primary"
     },
     "ToolWindow": {
       "background": "primaryContainer",
@@ -723,15 +712,12 @@
       "HeaderTab": {
         "hoverBackground": "primarySurface1",
         "hoverInactiveBackground": "primarySurface0",
-        "inactiveUnderlineColor": "onSurface",
+        "inactiveUnderlineColor": "primary",
         "underlineColor": "primary",
         "underlinedTabBackground": "primaryContainer",
-        "underlinedTabForeground": "onPrimaryContainer"
+        "underlinedTabForeground": "primary"
       },
       "Stripe": {
-        "DragAndDrop": {
-          "separatorColor": "primary"
-        },
         "separatorColor": "outlineVariant"
       }
     },
@@ -747,7 +733,7 @@
       "hoverBackground": "primarySurface1",
       "hoverInactiveBackground": "primarySurface1",
       "leftChildIndent": 4,
-      "modifiedItemForeground": "info",
+      "modifiedItemForeground": "onSecondary",
       "paintLines": true,
       "rightChildIndent": 12,
       "rowHeight": 24,
@@ -771,7 +757,7 @@
           "currentBranchBackground": "secondaryContainer",
           "hoveredBackground": "secondarySurface1",
           "selectionBackground": "secondarySurface1",
-          "selectionForeground": "onPrimaryContainer",
+          "selectionForeground": "onSurface",
           "selectionInactiveBackground": "secondarySurface0",
           "selectionInactiveForeground": "onSurface"
         }
@@ -784,8 +770,8 @@
         }
       },
       "RefLabel": {
-        "backgroundBase": "primarySurface1",
-        "foreground": "onSurface"
+        "backgroundBase": "primary",
+        "foreground": "onPrimaryContainer"
       }
     },
     "UIDesigner": {
