@@ -1,30 +1,36 @@
-<scheme name="javiersc-dark" version="142" parent_scheme="Darcula">
+<scheme name="JavierSC Dark" version="142" parent_scheme="Darcula">
   <colors>
-    <option name="CARET_ROW_COLOR" value="23272e" />
+    <option name="CARET_ROW_COLOR" value="2c3139" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1b1f24" />
-    <option name="FILESTATUS_ADDED" value="73c990" />
+    <option name="DOCUMENTATION_COLOR" value="15181c" />
+    <option name="ERROR_HINT" value="81302c" />
+    <option name="FILESTATUS_ADDED" value="85dd89" />
     <option name="FILESTATUS_COPIED" value="73c990" />
-    <option name="FILESTATUS_DELETED" value="59626f" />
+    <option name="FILESTATUS_DELETED" value="ec4242" />
     <option name="FILESTATUS_HIJACKED" value="c679dd" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="59626f" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="808080" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="85dd89" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
     <option name="FILESTATUS_MERGED" value="61aeef" />
-    <option name="FILESTATUS_MODIFIED" value="e2c08d" />
+    <option name="FILESTATUS_MODIFIED" value="f0d69a" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
     <option name="FILESTATUS_RENAMED" value="c679dd" />
     <option name="FILESTATUS_SUPPRESSED" value="abb2bf" />
-    <option name="FILESTATUS_SWITCHED" value="61aeef" />
-    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_SWITCHED" value="4d4857" />
     <option name="FILESTATUS_addedOutside" value="98c379" />
     <option name="FILESTATUS_changelistConflict" value="ff6347" />
     <option name="FILESTATUS_modifiedOutside" value="e5c17c" />
     <option name="GUTTER_BACKGROUND" value="21242b" />
-    <option name="INFORMATION_HINT" value="4b4d4d" />
+    <option name="HINT_BORDER" value="2b2f36" />
+    <option name="INFORMATION_HINT" value="15181c" />
     <option name="LOOKUP_COLOR" value="21242b" />
     <option name="METHOD_SEPARATORS_COLOR" value="2f333d" />
     <option name="ScrollBar.thumbColor" value="404040" />
@@ -167,9 +173,14 @@
         <option name="EFFECT_COLOR" value="ffc66d" />
       </value>
     </option>
+    <option name="ComposableCallTextAttributes">
+      <value>
+        <option name="FOREGROUND" value="41b676" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="4684fa" />
+        <option name="FOREGROUND" value="328af5" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -209,12 +220,12 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="df99ff" />
+        <option name="FOREGROUND" value="e1a4ff" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="4684fa" />
+        <option name="FOREGROUND" value="52e64d" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -226,7 +237,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff9e33" />
+        <option name="FOREGROUND" value="fca646" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -246,7 +257,7 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="df99ff" />
+        <option name="FOREGROUND" value="e1a4ff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -331,17 +342,12 @@
     </option>
     <option name="KOTLIN_SUSPEND_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="ffa197" />
-      </value>
-    </option>
-    <option name="KOTLIN_TRAIT">
-      <value>
-        <option name="FOREGROUND" value="82ff34" />
+        <option name="FOREGROUND" value="f87d6f" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_ALIAS">
       <value>
-        <option name="FOREGROUND" value="e95ac5" />
+        <option name="FOREGROUND" value="f27ed3" />
       </value>
     </option>
     <option name="KOTLIN_TYPE_PARAMETER">
@@ -24683,13 +24689,13 @@
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
       <value>
-        <option name="BACKGROUND" value="314231" />
+        <option name="BACKGROUND" value="423f31" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="FOREGROUND" value="afb7bd" />
         <option name="BACKGROUND" value="1b1f24" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
