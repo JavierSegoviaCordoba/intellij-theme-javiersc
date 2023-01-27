@@ -2,6 +2,7 @@
   <colors>
     <option name="CARET_ROW_COLOR" value="23272e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1b1f24" />
+    <option name="DOCUMENTATION_COLOR" value="15181c" />
     <option name="FILESTATUS_ADDED" value="73c990" />
     <option name="FILESTATUS_COPIED" value="73c990" />
     <option name="FILESTATUS_DELETED" value="59626f" />
@@ -24,11 +25,13 @@
     <option name="FILESTATUS_changelistConflict" value="ff6347" />
     <option name="FILESTATUS_modifiedOutside" value="e5c17c" />
     <option name="GUTTER_BACKGROUND" value="21242b" />
-    <option name="INFORMATION_HINT" value="4b4d4d" />
+    <option name="HINT_BORDER" value="2b2f36" />
+    <option name="INFORMATION_HINT" value="15181c" />
     <option name="LOOKUP_COLOR" value="21242b" />
     <option name="METHOD_SEPARATORS_COLOR" value="2f333d" />
     <option name="ScrollBar.thumbColor" value="404040" />
     <option name="TEARLINE_COLOR" value="2f333d" />
+    <option name="ERROR_HINT" value="81302c" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
