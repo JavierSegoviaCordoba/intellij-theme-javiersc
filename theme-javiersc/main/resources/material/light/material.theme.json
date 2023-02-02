@@ -1,0 +1,273 @@
+{
+  "name": "JavierSC Material Light",
+  "dark": false,
+  "author": "Javier Segovia Córdoba",
+  "editorScheme": "/material/light/scheme.xml",
+  "colors": {
+    "primary": "#3369D6",
+    "onPrimary": "#FFFFFF",
+    "onPrimaryDisabled": "#6d97eb",
+    "primaryContainer": "#ddf6ff",
+    "onPrimaryContainer": "#003473",
+    "primarySurface1": "#3369D60D",
+    "onPrimarySurface1": "#3369D6BF",
+    "primarySurface2": "#3369D614",
+    "onPrimarySurface2": "#3369D6C7",
+    "primarySurface3": "#3369D61C",
+    "onPrimarySurface3": "#3369D6CF",
+    "primarySurface4": "#3369D61F",
+    "onPrimarySurface4": "#3369D6D1",
+    "primarySurface5": "#3369D624",
+    "onPrimarySurface5": "#3369D6D6",
+    "secondary": "#F7F8FA",
+    "onSecondary": "#6C707E",
+    "onSecondaryDisabled": "#adb0b3",
+    "secondaryContainer": "#dfdfe4",
+    "onSecondaryContainer": "#404040",
+    "secondarySurface1": "#625B710D",
+    "onSecondarySurface1": "#FFFFFFCC",
+    "secondarySurface2": "#625B7114",
+    "onSecondarySurface2": "#FFFFFFD4",
+    "secondarySurface3": "#625B711C",
+    "onSecondarySurface3": "#FFFFFFDB",
+    "secondarySurface4": "#625B711F",
+    "onSecondarySurface4": "#FFFFFFE0",
+    "secondarySurface5": "#625B7124",
+    "onSecondarySurface5": "#FFFFFFE6",
+    "tertiary": "#FFFFFF",
+    "onTertiary": "#6C707E",
+    "tertiaryContainer": "#F7F8FA",
+    "onTertiaryContainer": "#404040",
+    "tertiarySurface1": "#7D52600D",
+    "tertiarySurface2": "#7D526014",
+    "tertiarySurface3": "#7D52601C",
+    "tertiarySurface4": "#7D52601F",
+    "tertiarySurface5": "#7D526024",
+    "error": "#B3261E",
+    "onError": "#FFFFFF",
+    "errorContainer": "#F9DEDC",
+    "onErrorContainer": "#370B1E",
+    "errorSurface1": "#B3261E0D",
+    "errorSurface2": "#B3261E14",
+    "errorSurface3": "#B3261E1C",
+    "errorSurface4": "#B3261E1F",
+    "errorSurface5": "#B3261E24",
+    "warning": "#B3AD1E",
+    "onWarning": "#FFFFFF",
+    "warningContainer": "#F9F4DC",
+    "onWarningContainer": "#524B0C",
+    "warningSurface1": "#B3AD1E0D",
+    "warningSurface2": "#B3AD1E14",
+    "warningSurface3": "#B3AD1E1C",
+    "warningSurface4": "#B3AD1E1F",
+    "warningSurface5": "#B3AD1E24",
+    "outlineSoft": "#0000000F",
+    "outline": "#00000014",
+    "outlineHard": "#0000001F",
+    "transparent": "#FFFFFF00",
+    "debug": "#ef4bff",
+    "debug2": "#cf00e0",
+    "debug3": "#a341f7",
+    "debug4": "#6901a1"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions": {
+        "Grey": "#6C707E",
+        "Red": "#ca2643",
+        "Yellow": "#fccb40",
+        "Green": "#34ad38",
+        "Blue": "#40a0e0",
+        "GreyInline": {
+          "Dark": "#8C929B"
+        }
+      },
+      "Objects": {
+        "Grey": "#AEB9C0",
+        "RedStatus": "#f62e51",
+        "Red": "#ee173e",
+        "Pink": "#DF99FF",
+        "Yellow": "#caba2d",
+        "Green": "#59ce61",
+        "Blue": "#40B6E0",
+        "Purple": "#b926ff",
+        "BlackText": "#000000ff",
+        "YellowDark": "#f0de18",
+        "GreenAndroid": "#3DD983"
+      }
+    }
+  },
+  "ui": {
+    "*": {
+      "background": "debug",
+      "foreground": "debug3",
+      "hoverForeground": "debug4",
+      "borderColor": "debug3"
+    },
+    "ActionButton": {
+      "pressedBackground": "secondarySurface2",
+      "pressedBorderColor": "secondarySurface",
+      "hoverBackground": "secondaryContainer4",
+      "hoverBorderColor": "secondaryContainer4"
+    },
+    "Borders": {
+      "color": "outlineSoft"
+    },
+    "Button": {
+      "default": {
+        "foreground": "onPrimary",
+        "startBorderColor": "transparent",
+        "endBorderColor": "transparent"
+      },
+      "arc": 20,
+      "background": "secondary",
+      "foreground": "onPrimary",
+      "startBorderColor": "transparent",
+      "endBorderColor": "transparent"
+    },
+    "CheckBox": {
+      "background": "secondary",
+      "foreground": "onSecondary",
+      "disabledText": "onSecondaryDisabled"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "iconColor": "onPrimary",
+        "disabledIconColor": "onPrimaryDisabled"
+      }
+    },
+    "ComboBoxButton": {
+      "background": "debug"
+    },
+    "ComplexPopup": {
+      "Header": {
+        "background": "secondary",
+        "foreground": "onSecondaryContainer"
+      }
+    },
+    "Component": {
+      "focusColor": "transparent",
+      "infoForeground": "onSecondaryDisabled"
+    },
+    "DefaultTabs": {
+      "borderColor": "secondarySurface5"
+    },
+    "Editor": {
+      "background": "secondarySurface5",
+      "SearchField": {
+        "background": "tertiary",
+        "borderInsets": "4,4,0,0"
+      }
+    },
+    "EditorTabs": {
+      "borderColor": "secondarySurface5"
+    },
+    "Label": {
+      "foreground": "onSecondaryContainer"
+    },
+    "Link": {
+      "activeForeground": "primary"
+    },
+    "List": {
+      "foreground": "onSecondaryContainer",
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5"
+    },
+    "MainMenu": {
+      "foreground": "onSecondaryContainer",
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5"
+    },
+    "MainToolbar": {
+      "background": "secondary",
+      "Dropdown": {
+        "background": "secondaryContainer",
+        "foreground": "onSecondaryContainer",
+        "hoverBackground": "primarySurface5",
+        "hoverForeground": "onPrimarySurface5"
+      }
+    },
+    "Menu": {
+      "borderColor": "secondaryContainer",
+      "selectionBackground": "primarySurface5",
+      "background": "secondary",
+      "foreground": "onSecondary",
+      "selectionForeground": "primary",
+      "Selection": {
+        "arc": 20
+      },
+      "separatorColor": "secondarySurface1"
+    },
+    "MenuBar": {
+      "borderColor": "secondarySurface5"
+    },
+    "MenuItem": {
+      "background": "secondary",
+      "foreground": "onSecondady",
+      "selectionForeground": "onPrimarySurface5"
+    },
+    "Panel": {
+      "background": "secondary",
+      "foreground": "onSecondary"
+    },
+    "Popup": {
+      "background": "secondary",
+      "foreground": "onSecondaryContainer"
+    },
+    "PopupMenu": {
+      "background": "secondary",
+      "foreground": "onSecondaryContainer"
+    },
+    "RunWidget": {
+      "background": "primary",
+      "foreground": "onPrimary"
+    },
+    "SearchEverywhere": {
+      "Advertiser": {
+        "background": "secondaryContainer",
+        "foreground": "onSecondaryContainer"
+      },
+      "List": {
+        "settingsBackground": "secondary"
+      }
+    },
+    "StatusBar": {
+      "background": "secondary",
+      "borderColor": "secondarySurface5",
+      "Breadcrumbs": {
+        "foreground": "onSecondaryContainer"
+      },
+      "Widget": {
+        "foreground": "onSecondaryContainer",
+        "pressedBackground": "secondarySurface2"
+      }
+    },
+    "Table": {
+      "background": "secondary"
+    },
+    "Tree": {
+      "background": "secondary",
+      "border": "8,24,4,8",
+      "collapsedIcon": "/general/chevron-right.svg",
+      "collapsedSelectedIcon": "/general/chevron-right.svg",
+      "expandedIcon": "/general/chevron-down.svg",
+      "expandedSelectedIcon": "/general/chevron-down.svg",
+      "foreground": "onSecondary",
+      "leftChildIndent": 4,
+      "rightChildIndent": 12,
+      "rowHeight": 24,
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5",
+      "selectionInactiveBackground": "secondarySurface3",
+      "Selection": {
+        "arc": 20
+      }
+    },
+    "ToolWindow": {
+      "background": "secondary",
+      "Header": {
+        "inactiveBackground": "secondary"
+      }
+    }
+  }
+}

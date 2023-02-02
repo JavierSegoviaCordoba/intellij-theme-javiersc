@@ -1,27 +1,29 @@
-<scheme name="javiersc-dark" version="142" parent_scheme="Darcula">
+<scheme name="javiersc-light" version="142" parent_scheme="Default">
   <colors>
-    <option name="CARET_ROW_COLOR" value="2c3139" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1b1f24" />
-    <option name="DOCUMENTATION_COLOR" value="15181c" />
+    <option name="CARET_ROW_COLOR" value="f0f1f1" />
     <option name="ERROR_HINT" value="81302c" />
-    <option name="FILESTATUS_ADDED" value="85dd89" />
+    <option name="FILESTATUS_ADDED" value="73c990" />
     <option name="FILESTATUS_COPIED" value="73c990" />
-    <option name="FILESTATUS_DELETED" value="e87171" />
+    <option name="FILESTATUS_DELETED" value="59626f" />
     <option name="FILESTATUS_HIJACKED" value="c679dd" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="59626f" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="808080" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff6347" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff6347" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff6347" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e887" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
     <option name="FILESTATUS_MERGED" value="61aeef" />
-    <option name="FILESTATUS_MODIFIED" value="f0d69a" />
+    <option name="FILESTATUS_MODIFIED" value="e2c08d" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
     <option name="FILESTATUS_RENAMED" value="c679dd" />
     <option name="FILESTATUS_SUPPRESSED" value="abb2bf" />
     <option name="FILESTATUS_SWITCHED" value="61aeef" />
-    <option name="FILESTATUS_UNKNOWN" value="6dcae4" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_addedOutside" value="98c379" />
     <option name="FILESTATUS_changelistConflict" value="ff6347" />
     <option name="FILESTATUS_modifiedOutside" value="e5c17c" />
@@ -212,7 +214,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="df99ff" />
+        <option name="FOREGROUND" value="c557eb" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -263,6 +265,9 @@
       <value>
         <option name="FOREGROUND" value="6ece59" />
       </value>
+    </option>
+    <option name="DEFAULT_TAG">
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -321,7 +326,6 @@
         <option name="FOREGROUND" value="a54bff" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="KOTLIN_SMART_CAST_RECEIVER">
       <value>
         <option name="BACKGROUND" value="373737" />
@@ -24692,8 +24696,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="afb7bd" />
-        <option name="BACKGROUND" value="1b1f24" />
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="ffffff" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -24710,6 +24714,11 @@
         <option name="FOREGROUND" value="acc045" />
         <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="977ab" />
+      </value>
+    </option>
+    <option name="XML_NS_PREFIX">
+      <value>
+        <option name="FOREGROUND" value="c557eb" />
       </value>
     </option>
   </attributes>

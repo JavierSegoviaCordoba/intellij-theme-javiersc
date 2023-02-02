@@ -1,27 +1,26 @@
 {
-  "name": "JavierSC new dark",
-  "dark": true,
+  "name": "JavierSC light",
+  "dark": false,
   "author": "Javier Segovia Córdoba",
-  "editorScheme": "/javiersc_dark.xml",
+  "editorScheme": "/javiersc_light.xml",
   "colors": {
-    "primary": "#eeca75",
-    "onPrimary": "#24252c",
-    "primaryOutline": "#eecd59",
-    "primaryContainer": "#ffe7b3",
-    "secondary": "#717884",
-    "secondaryContainer": "#4E545B",
-    "onSecondaryContainer": "#E8DEF8",
-    "tertiaryContainer": "#2F333D",
-    "onTertiaryContainer": "#6e737b",
-    "background": "#1B1F24",
+    "primary": "#3573F0",
+    "onPrimary": "#FFFFFF",
+    "primaryVariant": "#0053ff",
+    "secondary": "#c5c5cc",
+    "secondaryContainer": "#dcdce2",
+    "onSecondaryContainer": "#484953",
+    "tertiaryContainer": "#f0f1f1",
+    "onTertiaryContainer": "#2f3238",
+    "background": "#FFFFFF",
+    "onBackground": "#2d2d2d",
+    "backgroundOutline": "#dce1e3",
     "backgroundTranslucent": "#FFFFFF1A",
-    "onBackground": "#979FAD",
-    "backgroundOutline": "#272a32",
-    "surface": "#15181c",
-    "onSurface": "#E6E1E5",
-    "surfaceOutline": "#2b2f36",
+    "surface": "#F2F4F6",
+    "onSurface": "#000000",
+    "surfaceOutline": "#d0d4d9",
     "surfaceVariant": "#4f535e",
-    "onSurfaceVariant": "#dce0ec",
+    "onSurfaceVariant": "#cbd3da",
     "error": "#601410",
     "onError": "#fc5959",
     "errorOutline": "#721611",
@@ -117,7 +116,7 @@
     },
     "EditorTabs": {
       "hoverBackground": "tertiaryContainer",
-      "underlineColor": "primaryOutline",
+      "underlineColor": "primary",
       "inactiveUnderlineColor": "secondary",
       "underlineHeight": 3,
       "underlinedTabForeground": "onBackground",
@@ -141,7 +140,7 @@
     },
     "Link": {
       "activeForeground": "primary",
-      "hoverForeground": "primaryContainer"
+      "hoverForeground": "primaryVariant"
     },
     "List": {
       "background": "background",
@@ -228,7 +227,7 @@
     "ProgressBar": {
       "trackColor": "tertiaryContainer",
       "indeterminateStartColor": "primary",
-      "indeterminateEndColor": "primaryContainer",
+      "indeterminateEndColor": "primaryVariant",
       "progressColor": "primary"
     },
     "RunWidget": {
