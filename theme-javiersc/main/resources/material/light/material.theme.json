@@ -195,6 +195,9 @@
         "background": "tertiary",
         "borderInsets": "4,4,0,0"
       },
+      "Toolbar": {
+        "borderColor": "outlineHard"
+      },
       "ToolTip": {
         "background": "tertiary",
         "foreground": "onTertiary"
@@ -247,22 +250,23 @@
     },
     "Menu": {
       "borderColor": "outline",
-      "selectionBackground": "primarySurface5",
       "background": "secondary",
       "foreground": "onSecondary",
-      "selectionForeground": "primary",
       "borderInsets": "12,8,12,8",
       "Selection": {
         "innerInsets": "8,16,8,12",
         "outerInsets": "4,0,4,0",
         "arc": 20
       },
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "primary",
       "separatorColor": "secondarySurface1"
     },
     "MenuBar": {
       "borderColor": "transparent"
     },
     "MenuItem": {
+      "acceleratorSelectionForeground": "onPrimarySurface5",
       "background": "secondary",
       "disabledForeground": "onSecondaryDisabled",
       "foreground": "onTertiaryContainer",
@@ -292,6 +296,10 @@
       }
     },
     "Popup": {
+      "Advertiser": {
+        "background": "secondary",
+        "foreground": "onSecondary"
+      },
       "background": "secondary",
       "borderColor": "secondaryContainer",
       "foreground": "onSecondaryContainer"
@@ -371,7 +379,7 @@
       "foreground": "onSecondary"
     },
     "TextField": {
-      "background": "secondary",
+      "background": "tertiary",
       "borderColor": "onSecondary",
       "foreground": "onSecondary"
     },
@@ -393,6 +401,11 @@
       "Header": {
         "borderColor": "outline",
         "inactiveBackground": "secondary"
+      }
+    },
+    "Toolbar": {
+      "Floating": {
+        "background": "primaryContainer"
       }
     },
     "Tree": {
