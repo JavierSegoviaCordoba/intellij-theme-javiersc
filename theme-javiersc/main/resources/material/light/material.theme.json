@@ -8,7 +8,7 @@
     "onPrimary": "#FFFFFF",
     "onPrimaryDisabled": "#6d97eb",
     "primaryContainer": "#d7ebff",
-    "onPrimaryContainer": "#003473",
+    "onPrimaryContainer": "#015ccc",
     "primarySurface1": "#3369D60D",
     "onPrimarySurface1": "#3369D6BF",
     "primarySurface2": "#3369D614",
@@ -36,7 +36,7 @@
     "onSecondarySurface5": "#FFFFFFE6",
     "tertiary": "#FFFFFF",
     "onTertiary": "#606373",
-    "tertiaryContainer": "#F7F8FA",
+    "tertiaryContainer": "#FFFFFF",
     "onTertiaryContainer": "#2b2d2e",
     "tertiarySurface1": "#7D52600D",
     "tertiarySurface2": "#7D526014",
@@ -44,7 +44,7 @@
     "tertiarySurface4": "#7D52601F",
     "tertiarySurface5": "#7D526024",
     "quaternaryContainer": "#fcf9f9",
-    "error": "#B3261E",
+    "error": "#d91f1f",
     "onError": "#FFFFFF",
     "errorContainer": "#F9DEDC",
     "onErrorContainer": "#370B1E",
@@ -73,39 +73,52 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions": {
-        "Grey": "#6C707E",
-        "Red": "#ca2643",
-        "Yellow": "#fccb40",
-        "Green": "#34ad38",
-        "Blue": "#40a0e0",
-        "GreyInline": {
-          "Dark": "#8C929B"
-        }
-      },
-      "Objects": {
-        "Grey": "#AEB9C0",
-        "RedStatus": "#f62e51",
-        "Red": "#ee173e",
-        "Pink": "#DF99FF",
-        "Yellow": "#caba2d",
-        "Green": "#59ce61",
-        "Blue": "#40B6E0",
-        "Purple": "#b926ff",
-        "BlackText": "#000000ff",
-        "YellowDark": "#f0de18",
-        "GreenAndroid": "#3DD983"
-      }
+      "Actions.Grey": "#6C707E",
+      "Actions.Red": "#ca2643",
+      "Actions.Yellow": "#fccb40",
+      "Actions.Green": "#34ad38",
+      "Actions.Blue": "#40a0e0",
+      "GreyInline.Dark": "#8C929B",
+      "Checkbox.Background.Selected": "primary",
+      "Checkbox.Border.Default": "outlineHard",
+      "Checkbox.Border.Selected": "primary",
+      "Checkbox.Focus.Thin.Default": "transparent",
+      "Checkbox.Focus.Thin.Selected": "transparent",
+      "Checkbox.Focus.Wide": "transparent",
+      "Objects.Grey": "#AEB9C0",
+      "Objects.RedStatus": "#f62e51",
+      "Objects.Red": "#ee173e",
+      "Objects.Pink": "#DF99FF",
+      "Objects.Yellow": "#caba2d",
+      "Objects.Green": "#59ce61",
+      "Objects.Blue": "#40B6E0",
+      "Objects.Purple": "#b926ff",
+      "Objects.BlackText": "#000000ff",
+      "Objects.YellowDark": "#f0de18",
+      "Objects.GreenAndroid": "#3DD983"
     }
   },
   "ui": {
     "*": {
+      "acceleratorSelectionForeground": "debug4",
       "background": "debug",
+      "borderColor": "debug4",
       "disabledBackground": "debug2",
       "foreground": "debug3",
       "hoverForeground": "debug4",
-      "borderColor": "debug4",
-      "shadowColor": "debug"
+      "lightSelectionBackground": "debug2",
+      "lightSelectionForeground": "debug3",
+      "lightSelectionInactiveBackground": "debug2",
+      "lightSelectionInactiveForeground": "debug4",
+      "selectedForeground": "debug4",
+      "selectionBackground": "debug2",
+      "selectionForeground": "debug4",
+      "shadowColor": "debug",
+      "underlineColor": "debug",
+      "underlinedTabForeground": "debug",
+      "inactiveUnderlineColor": "debug",
+      "disabledUnderlineColor": "debug",
+      "underlineHeight": 3
     },
     "ActionButton": {
       "pressedBackground": "secondarySurface2",
@@ -128,10 +141,10 @@
       "background": "secondary",
       "disabledBorderColor": "onSecondaryDisabled",
       "disabledText": "onSecondaryDisabled",
-      "endBorderColor": "transparent",
+      "endBorderColor": "outlineHard",
       "focusedBorderColor": "transparent",
       "foreground": "onSecondary",
-      "startBorderColor": "transparent"
+      "startBorderColor": "outlineHard"
     },
     "CheckBox": {
       "background": "secondary",
@@ -139,19 +152,22 @@
       "foreground": "onSecondary"
     },
     "ComboBox": {
-      "background": "secondary",
-      "disabledForeground": "onSecondaryDisabled",
-      "disabledBackground": "secondary",
-      "foreground": "onSecondary",
-      "borderColor": "primary",
       "ArrowButton": {
         "background": "secondary",
         "iconColor": "onTertiary",
         "disabledIconColor": "onPrimaryDisabled"
-      }
+      },
+      "background": "tertiaryContainer",
+      "disabledForeground": "onSecondaryDisabled",
+      "disabledBackground": "secondary",
+      "foreground": "onTertiaryContainer",
+      "borderColor": "primary",
+      "selectionBackground": "primaryContainer",
+      "selectionForeground": "onPrimaryContainer"
     },
     "ComboBoxButton": {
-      "background": "tertiary"
+      "background": "tertiary",
+      "border": "primary"
     },
     "ComplexPopup": {
       "Header": {
@@ -174,6 +190,10 @@
       "focusColor": "transparent",
       "focusedBorderColor": "transparent",
       "infoForeground": "onSecondaryDisabled"
+    },
+    "Counter": {
+      "background": "primary",
+      "foreground": "onPrimary"
     },
     "DefaultTabs": {
       "background": "secondary",
@@ -209,19 +229,27 @@
     },
     "EditorTabs": {
       "borderColor": "outlineSoft",
-      "underlineArc": "20"
+      "inactiveUnderlineColor": "primary",
+      "underlineArc": "20",
+      "underlineColor": "primary",
+      "underlinedTabForeground": "primary",
+      "tabInsets": "-2,10,-2,6"
     },
     "Label": {
-      "foreground": "onSecondaryContainer"
+      "foreground": "onSecondaryContainer",
+      "infoForeground": "onPrimarySurface1"
     },
     "Link": {
-      "activeForeground": "primary"
+      "activeForeground": "primary",
+      "hoverForeground": "onPrimarySurface1"
     },
     "List": {
-      "background": "secondaryContainer",
-      "foreground": "onSecondaryContainer",
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5"
+      "background": "tertiary",
+      "foreground": "onTertiaryContainer",
+      "selectionBackground": "primaryContainer",
+      "selectionForeground": "onPrimarySurface5",
+      "selectionInactiveBackground": "secondaryContainer",
+      "selectionInactiveForeground": "onSecondaryContainer"
     },
     "MainMenu": {
       "foreground": "onSecondaryContainer",
@@ -230,11 +258,13 @@
     },
     "MainToolbar": {
       "background": "secondary",
+      "inactiveBackground": "secondary",
       "Dropdown": {
         "background": "secondaryContainer",
         "foreground": "onSecondaryContainer",
         "hoverBackground": "primarySurface5",
-        "hoverForeground": "onPrimarySurface5"
+        "hoverForeground": "onPrimarySurface5",
+        "borderInsets": "0,12,0,8"
       },
       "Icon": {
         "background": "onSecondary",
@@ -248,10 +278,14 @@
         "borderColor": "debug"
       }
     },
+    "MemoryIndicator": {
+      "allocatedBackground": "primaryContainer",
+      "usedBackground": "primarySurface2"
+    },
     "Menu": {
       "borderColor": "outline",
-      "background": "secondary",
-      "foreground": "onSecondary",
+      "background": "tertiary",
+      "foreground": "onTertiaryContainer",
       "borderInsets": "12,8,12,8",
       "Selection": {
         "innerInsets": "8,16,8,12",
@@ -267,6 +301,7 @@
     },
     "MenuItem": {
       "acceleratorSelectionForeground": "onPrimarySurface5",
+      "acceleratorForeground": "onSecondary",
       "background": "secondary",
       "disabledForeground": "onSecondaryDisabled",
       "foreground": "onTertiaryContainer",
@@ -282,6 +317,19 @@
     "Plugins": {
       "background": "tertiary",
       "borderColor": "outlineSoft",
+      "Button": {
+        "updateBackground": "primary",
+        "updateBorderColor": "transparent",
+        "installBackground": "transparent",
+        "installBorderColor": "primary",
+        "installFillBackground": "transparent",
+        "installFocusedBackground": "transparent",
+        "installForeground": "primary",
+        "installFillForeground": "primary"
+      },
+      "lightSelectionBackground": "primarySurface3",
+      "tagBackground": "primaryContainer",
+      "tagForeground": "primary",
       "SearchField": {
         "background": "tertiary",
         "borderColor": "outline"
@@ -300,16 +348,16 @@
         "background": "secondary",
         "foreground": "onSecondary"
       },
-      "background": "secondary",
+      "background": "tertiary",
       "borderColor": "secondaryContainer",
-      "foreground": "onSecondaryContainer"
+      "foreground": "onTertiary"
     },
     "PopupMenu": {
-      "background": "secondary",
-      "foreground": "onSecondaryContainer"
+      "background": "tertiary",
+      "foreground": "onTertiaryContainer"
     },
     "RadioButton": {
-      "background": "secondary",
+      "background": "tertiary",
       "foreground": "onTertiaryContainer"
     },
     "RunWidget": {
@@ -332,6 +380,14 @@
         "settingsBackground": "secondary"
       }
     },
+    "SearchField": {
+      "errorForeground": "error"
+    },
+    "Settings": {
+      "Spotlight": {
+        "borderColor": "primary"
+      }
+    },
     "SidePanel": {
       "background": "secondary"
     },
@@ -347,13 +403,15 @@
       "background": "transparent"
     },
     "StatusBar": {
-      "background": "secondary",
       "borderColor": "secondarySurface5",
+      "background": "secondary",
       "Breadcrumbs": {
-        "foreground": "onSecondaryContainer"
+        "foreground": "onSecondaryContainer",
+        "hoverForeground": "primary"
       },
       "Widget": {
         "foreground": "onSecondaryContainer",
+        "hoverForeground": "primary",
         "pressedBackground": "secondarySurface2"
       }
     },
@@ -363,11 +421,12 @@
       "hoverColor": "primarySurface2",
       "underlineColor": "primary",
       "underlineHeight": 3
-
     },
     "Table": {
       "background": "secondary",
-      "foreground": "onSecondaryContainer"
+      "foreground": "onSecondaryContainer",
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5"
     },
     "TableHeader": {
       "background": "secondarySurface1",
@@ -376,16 +435,20 @@
     },
     "TextArea": {
       "background": "secondary",
-      "foreground": "onSecondary"
+      "foreground": "onSecondary",
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5"
     },
     "TextField": {
       "background": "tertiary",
       "borderColor": "onSecondary",
-      "foreground": "onSecondary"
+      "foreground": "onSecondary",
+      "selectionBackground": "primarySurface5",
+      "selectionForeground": "onPrimarySurface5"
     },
     "TitlePane": {
-     "background": "secondary",
-     "inactiveBackground": "secondary"
+      "background": "secondary",
+      "inactiveBackground": "secondary"
     },
     "ToolTip": {
       "Actions": {
@@ -401,6 +464,14 @@
       "Header": {
         "borderColor": "outline",
         "inactiveBackground": "secondary"
+      },
+      "HeaderTab": {
+        "hoverBackground": "primarySurface2",
+        "hoverInactiveBackground": "primarySurface5",
+        "inactiveUnderlineColor": "primary",
+        "underlineColor": "primary",
+        "underlinedTabBackground": "secondary",
+        "underlinedTabForeground": "primary"
       }
     },
     "Toolbar": {
@@ -409,7 +480,7 @@
       }
     },
     "Tree": {
-      "background": "secondary",
+      "background": "tertiary",
       "border": "8,24,4,8",
       "collapsedIcon": "/general/chevron-right.svg",
       "collapsedSelectedIcon": "/general/chevron-right.svg",
@@ -419,11 +490,36 @@
       "leftChildIndent": 4,
       "rightChildIndent": 12,
       "rowHeight": 24,
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5",
-      "selectionInactiveBackground": "secondarySurface3",
+      "hoverInactiveBackground": "primarySurface1",
+      "selectionBackground": "primarySurface3",
+      "selectionForeground": "onPrimarySurface4",
+      "selectionInactiveBackground": "primarySurface2",
+      "selectionInactiveForeground": "onPrimarySurface2",
       "Selection": {
         "arc": 20
+      }
+    },
+    "VersionControl": {
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "tertiary",
+          "hoveredBackground": "primaryContainer",
+          "selectionBackground": "primaryContainer",
+          "selectionForeground": "onPrimaryContainer",
+          "selectionInactiveBackground": "secondaryContainer",
+          "selectionInactiveForeground": "onSecondaryContainer"
+        }
+      },
+      "MarkerPopup": {
+        "borderColor": "outline",
+        "Toolbar": {
+          "background": "secondary",
+          "foreground": "onSecondary"
+        }
+      },
+      "RefLabel": {
+        "backgroundBase": "primary",
+        "foreground": "primary"
       }
     }
   }
