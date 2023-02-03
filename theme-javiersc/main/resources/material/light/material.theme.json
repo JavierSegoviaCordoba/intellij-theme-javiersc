@@ -132,6 +132,8 @@
     "Button": {
       "shadowColor": "transparent",
       "default": {
+        "endBackground": "primary",
+        "startBackground": "primary",
         "foreground": "onPrimary",
         "endBorderColor": "transparent",
         "startBorderColor": "transparent",
@@ -142,7 +144,7 @@
       "disabledBorderColor": "onSecondaryDisabled",
       "disabledText": "onSecondaryDisabled",
       "endBorderColor": "outlineHard",
-      "focusedBorderColor": "transparent",
+      "focusedBorderColor": "onPrimarySurface1",
       "foreground": "onSecondary",
       "startBorderColor": "outlineHard"
     },
