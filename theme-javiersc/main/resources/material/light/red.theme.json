@@ -345,6 +345,11 @@
         "warningForeground": "onWarningContainer"
       }
     },
+    "NewClass": {
+      "SearchField": {
+        "background": "background"
+      }
+    },
     "OptionPane": {
       "background": "primaryContainer"
     },
@@ -539,7 +544,7 @@
     },
     "TextField": {
       "background": "primaryContainer",
-      "borderColor": "primary",
+      "borderColor": "outlineVariant",
       "foreground": "onSurface",
       "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
