@@ -131,7 +131,7 @@
     "CheckBox": {
       "background": "primaryContainer",
       "disabledText": "onSurface38",
-      "foreground": "onPrimaryContainer",
+      "foreground": "onSurface",
       "select": "debugB"
     },
     "ComboBox": {
