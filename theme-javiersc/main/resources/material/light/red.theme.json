@@ -214,7 +214,7 @@
       "foreground": "onBackground",
       "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer",
-      "splitBorder": "debugB"
+      "splitBorder": "outlineVariant"
     },
     "EditorTabs": {
       "background": "debugA",
