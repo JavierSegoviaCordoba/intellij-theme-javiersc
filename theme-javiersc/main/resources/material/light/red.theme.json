@@ -419,7 +419,7 @@
       "foreground": "onBackground"
     },
     "ProgressBar": {
-      "indeterminateEndColor": "primarySurface1",
+      "indeterminateEndColor": "secondary",
       "indeterminateStartColor": "primary",
       "progressColor": "primary",
       "warningColor": "warning",
@@ -496,6 +496,12 @@
       "focus": "transparent",
       "trackColor": "primarySurface0",
       "tickColor": "primary"
+    },
+    "SpeedSearch": {
+      "background": "background",
+      "foreground": "onPrimaryContainer",
+      "borderColor": "primary",
+      "borderInsets": "4,4,4,2"
     },
     "Spinner": {
       "background": "primaryContainer"
@@ -620,6 +626,12 @@
       "selectionForeground": "onPrimaryContainer",
       "selectionInactiveBackground": "primarySurface0",
       "selectionInactiveForeground": "onSurface"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "errorContainer",
+      "errorBorderColor": "error",
+      "warningBackground": "warningContainer",
+      "warningBorderColor": "warning"
     },
     "VersionControl": {
       "Log": {
