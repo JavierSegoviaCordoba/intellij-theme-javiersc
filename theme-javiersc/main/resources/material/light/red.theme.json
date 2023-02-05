@@ -7,9 +7,8 @@
     "primary": "#A83741",
     "onPrimary": "#FFFFFF",
     "primaryContainer": "#FFFBFA",
-    "primarySurface00": "#A8374114",
-    "primarySurface0": "#ffe9ec",
-    "primarySurface1": "#FFD8D8",
+    "primarySurface0": "#ffc6c680",
+    "primarySurface1": "#ffc0c0B3",
     "onPrimaryContainer": "#850000",
     "outline": "#7d7675",
     "outlineVariant": "#F9DEDD",
@@ -191,7 +190,7 @@
     "DragAndDrop": {
       "areaForeground": "primary",
       "borderColor": "transparent",
-      "rowBackground": "primarySurface00"
+      "rowBackground": "primarySurface0"
     },
     "Editor": {
       "background": "background",
