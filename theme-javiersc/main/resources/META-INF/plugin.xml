@@ -9,7 +9,11 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.javiersc.intellij.light" path="javiersc_light.theme.json" />
         <themeProvider id="com.javiersc.intellij.dark" path="javiersc_dark.theme.json" />
-        <themeProvider id="com.javiersc.intellij.material.light" path="material/light/material.theme.json" />
-        <themeProvider id="com.javiersc.intellij.old.dark" path="_old/javiersc_old_dark.theme.json" />
+        <themeProvider id="com.javiersc.intellij.light.material.blue"
+            path="material/light/blue.theme.json" />
+        <themeProvider id="com.javiersc.intellij.light.material.red"
+            path="material/light/red.theme.json" />
+        <themeProvider id="com.javiersc.intellij.old.dark"
+            path="_old/javiersc_old_dark.theme.json" />
     </extensions>
 </idea-plugin>

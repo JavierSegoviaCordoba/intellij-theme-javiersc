@@ -1,5 +1,5 @@
 {
-  "name": "JavierSC Material Light",
+  "name": "JavierSC Material Light Red",
   "dark": false,
   "author": "Javier Segovia Córdoba",
   "editorScheme": "/material/light/scheme.xml",
@@ -318,17 +318,23 @@
     },
     "Notification": {
       "arc": "28",
-      "background": "debugA",
-      "borderColor": "debugB",
+      "background": "background",
+      "foreground": "onBackground",
+      "borderColor": "outline",
       "Button": {
-        "background": "debugA",
-        "borderColor": "debugB",
-        "foreground": "debugB"
+        "background": "primary",
+        "borderColor": "transparent",
+        "foreground": "onPrimary"
       },
       "errorBackground": "errorContainer",
       "errorBorderColor": "error",
       "errorForeground": "onErrorContainer",
       "linkForeground": "primary",
+      "MoreButton": {
+        "background": "primaryContainer",
+        "foreground": "onPrimaryContainer",
+        "innerBorderColor": "outlineVariant"
+      },
       "ToolWindow": {
         "errorBackground": "errorContainer",
         "errorForeground": "onErrorContainer",
@@ -542,9 +548,19 @@
     "TextPane": {
       "foreground": "onPrimaryContainer"
     },
+    "TipOfTheDay": {
+      "Image": {
+        "borderColor": "outlineVariant"
+      }
+    },
     "TitlePane": {
       "background": "primaryContainer",
       "inactiveBackground": "primaryContainer"
+    },
+    "Tooltip": {
+      "Learning": {
+        "borderColor": "outlineVariant"
+      }
     },
     "ToolTip": {
       "Actions": {
@@ -613,10 +629,10 @@
         }
       },
       "MarkerPopup": {
-        "borderColor": "debugB",
+        "borderColor": "outlineVariant",
         "Toolbar": {
-          "background": "debugA",
-          "foreground": "debugB"
+          "background": "primaryContainer",
+          "foreground": "onPrimaryContainer"
         }
       },
       "RefLabel": {
