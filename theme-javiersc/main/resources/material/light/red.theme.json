@@ -18,6 +18,7 @@
     "onSecondaryContainer": "#745b00",
     "secondarySurface0": "#ffecc8",
     "secondarySurface1": "#ffe8ae",
+    "tertiary": "#47bd5a",
     "background": "#FFFFFF",
     "onBackground": "#0B0B0B",
     "surface0": "#f2f2f5",
@@ -177,6 +178,11 @@
     "Counter": {
       "background": "primary",
       "foreground": "onPrimary"
+    },
+    "Debugger": {
+      "EvaluateExpression": {
+        "background": "background"
+      }
     },
     "DefaultTabs": {
       "background": "primaryContainer",
@@ -442,12 +448,12 @@
       }
     },
     "RunWidget": {
-      "background": "primary",
+      "background": "primaryContainer",
       "disabledForeground": "onSurface38",
-      "foreground": "onPrimary",
+      "foreground": "onSurface",
       "hoverBackground": "primarySurface0",
       "pressedBackground": "primarySurface1",
-      "runningBackground": "primary",
+      "runningBackground": "tertiary",
       "separatorColor": "outlineVariant"
     },
     "ScrollBar": {
