@@ -113,7 +113,7 @@
       "default": {
         "endBackground": "primary",
         "endBorderColor": "transparent",
-        "focusedBorderColor": "primary",
+        "focusedBorderColor": "onPrimaryContainer",
         "foreground": "onPrimary",
         "shadowColor": "transparent",
         "startBackground": "primary",
@@ -144,7 +144,7 @@
       "background": "primaryContainer",
       "disabledForeground": "onSurface38",
       "disabledBackground": "primaryContainer",
-      "foreground": "onPrimaryContainer",
+      "foreground": "onSurface",
       "borderColor": "outline",
       "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
@@ -499,7 +499,7 @@
       "background": "primaryContainer",
       "buttonColor": "primary",
       "buttonBorderColor": "transparent",
-      "focus": "transparent",
+      "focus": "primary",
       "trackColor": "primarySurface0",
       "tickColor": "primary"
     },

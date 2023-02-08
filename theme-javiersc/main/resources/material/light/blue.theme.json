@@ -4,63 +4,43 @@
   "author": "Javier Segovia Córdoba",
   "editorScheme": "/material/light/scheme.xml",
   "colors": {
-    "primary": "#3369D6",
+    "primary": "#0f6bda",
     "onPrimary": "#FFFFFF",
-    "onPrimaryDisabled": "#6d97eb",
-    "primaryContainer": "#d7ebff",
-    "onPrimaryContainer": "#015ccc",
-    "primarySurface1": "#3369D60D",
-    "onPrimarySurface1": "#3369D6BF",
-    "primarySurface2": "#3369D614",
-    "onPrimarySurface2": "#3369D6C7",
-    "primarySurface3": "#3369D61C",
-    "onPrimarySurface3": "#3369D6CF",
-    "primarySurface4": "#3369D61F",
-    "onPrimarySurface4": "#3369D6D1",
-    "primarySurface5": "#3369D624",
-    "onPrimarySurface5": "#3369D6D6",
-    "secondary": "#F7F8FA",
-    "onSecondary": "#606679",
-    "onSecondaryDisabled": "#adb0b3",
-    "secondaryContainer": "#e7e7ee",
-    "onSecondaryContainer": "#404040",
-    "secondarySurface1": "#625B710D",
-    "onSecondarySurface1": "#FFFFFFCC",
-    "secondarySurface2": "#625B7114",
-    "onSecondarySurface2": "#FFFFFFD4",
-    "secondarySurface3": "#625B711C",
-    "onSecondarySurface3": "#FFFFFFDB",
-    "secondarySurface4": "#625B711F",
-    "onSecondarySurface4": "#FFFFFFE0",
-    "secondarySurface5": "#625B7124",
-    "onSecondarySurface5": "#FFFFFFE6",
-    "tertiary": "#FFFFFF",
-    "onTertiary": "#606373",
-    "tertiaryContainer": "#FFFFFF",
-    "onTertiaryContainer": "#2b2d2e",
-    "tertiarySurface1": "#7D52600D",
-    "tertiarySurface2": "#7D526014",
-    "tertiarySurface3": "#7D52601C",
-    "tertiarySurface4": "#7D52601F",
-    "tertiarySurface5": "#7D526024",
-    "quaternaryContainer": "#fcf9f9",
-    "error": "#d91f1f",
+    "primaryContainer": "#F7F8FA",
+    "primarySurface0": "#9dc8fa80",
+    "primarySurface1": "#89bfffb3",
+    "onPrimaryContainer": "#0058c3",
+    "outline": "#7d7675",
+    "outlineVariant": "#e1e5e9",
+    "secondary": "#FFDCA4",
+    "onSecondary": "#967300",
+    "secondaryContainer": "#fff9e3",
+    "onSecondaryContainer": "#745b00",
+    "secondarySurface0": "#ffecc8",
+    "secondarySurface1": "#ffe8ae",
+    "tertiary": "#47bd5a",
+    "background": "#FFFFFF",
+    "onBackground": "#0B0B0B",
+    "surface0": "#f2f2f5",
+    "onSurface": "#2E2727",
+    "onSurface12": "#dbdde2",
+    "onSurface38": "#b4b4b6",
+    "error": "#ff5b5b",
     "onError": "#FFFFFF",
-    "errorContainer": "#F9DEDC",
-    "onErrorContainer": "#960606",
-    "warning": "#d9ca1f",
-    "onWarning": "#FFFFFF",
-    "warningContainer": "#fff9d8",
-    "onWarningContainer": "#b39c04",
-    "info": "#1f8cd9",
+    "errorContainer": "#ffe7e7",
+    "onErrorContainer": "#e00000",
+    "info": "#00a3ec",
     "onInfo": "#FFFFFF",
-    "infoContainer": "#dcedf9",
-    "onInfoContainer": "#066196",
-    "outlineSoft": "#00000010",
-    "outline": "#00000014",
-    "outlineHard": "#0000001F",
+    "infoContainer": "#c2ecff",
+    "onInfoContainer": "#007daa",
+    "warning": "#FFA200",
+    "onWarning": "#FFFFFF",
+    "warningContainer": "#ffe8c2",
+    "onWarningContainer": "#aa6b00",
     "transparent": "#FFFFFF00",
-    "debug": "#ef4bff",
+    "debugA": "#45ff0d",
+    "debugB": "#01c416",
+    "debug1": "#ef4bff",
     "debug2": "#cf00e0",
     "debug3": "#a341f7",
     "debug4": "#6901a1"
@@ -75,10 +55,10 @@
       "GreyInline": "#b1b6bc",
       "GreyInline.Dark": "#8C929B",
       "Checkbox.Background.Selected": "primary",
-      "Checkbox.Border.Default": "outlineHard",
+      "Checkbox.Border.Default": "onSurface",
       "Checkbox.Border.Selected": "primary",
-      "Checkbox.Focus.Thin.Default": "transparent",
-      "Checkbox.Focus.Thin.Selected": "transparent",
+      "Checkbox.Focus.Thin.Default": "primary",
+      "Checkbox.Focus.Thin.Selected": "primary",
       "Checkbox.Focus.Wide": "transparent",
       "Objects.Grey": "#AEB9C0",
       "Objects.RedStatus": "#f62e51",
@@ -96,220 +76,273 @@
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "debug4",
-      "background": "debug",
+      "background": "debug1",
       "borderColor": "debug4",
       "disabledBackground": "debug2",
+      "disabledUnderlineColor": "debug1",
+      "errorBackground": "debug1",
       "foreground": "debug3",
+      "highlight": "debug4",
       "hoverForeground": "debug4",
+      "inactiveUnderlineColor": "debug1",
       "lightSelectionBackground": "debug2",
       "lightSelectionForeground": "debug3",
       "lightSelectionInactiveBackground": "debug2",
       "lightSelectionInactiveForeground": "debug4",
+      "separatorColor": "debug3",
       "selectedForeground": "debug4",
+      "selectedBackground": "debug1",
       "selectionBackground": "debug2",
       "selectionForeground": "debug4",
-      "shadowColor": "debug",
-      "underlineColor": "debug",
-      "underlinedTabForeground": "debug",
-      "inactiveUnderlineColor": "debug",
-      "disabledUnderlineColor": "debug",
+      "shadowColor": "debug1",
+      "underlineColor": "debug1",
+      "underlinedTabForeground": "debug1",
       "underlineHeight": 3
     },
     "ActionButton": {
-      "pressedBackground": "secondarySurface2",
-      "pressedBorderColor": "secondarySurface",
-      "hoverBackground": "primarySurface2",
-      "hoverBorderColor": "primarySurface5"
+      "hoverBackground": "primarySurface1",
+      "pressedBackground": "primarySurface1",
+      "hoverBorderColor": "primarySurface1",
+      "pressedBorderColor": "primarySurface1"
     },
     "Borders": {
-      "color": "outlineSoft"
+      "color": "outlineVariant"
     },
     "Button": {
       "shadowColor": "transparent",
       "default": {
         "endBackground": "primary",
-        "startBackground": "primary",
-        "foreground": "onPrimary",
         "endBorderColor": "transparent",
-        "startBorderColor": "transparent",
-        "shadowColor": "transparent"
+        "focusedBorderColor": "primary",
+        "foreground": "onPrimary",
+        "shadowColor": "transparent",
+        "startBackground": "primary",
+        "startBorderColor": "transparent"
       },
       "arc": 20,
-      "background": "secondary",
-      "disabledBorderColor": "onSecondaryDisabled",
-      "disabledText": "onSecondaryDisabled",
-      "endBorderColor": "outlineHard",
-      "focusedBorderColor": "onPrimarySurface1",
-      "foreground": "onSecondary",
-      "startBorderColor": "outlineHard"
+      "background": "primaryContainer",
+      "disabledBorderColor": "onSurface12",
+      "disabledText": "onSurface38",
+      "endBorderColor": "outline",
+      "focusedBorderColor": "primary",
+      "foreground": "primary",
+      "startBorderColor": "outline"
     },
     "CheckBox": {
-      "background": "secondary",
-      "disabledText": "onSecondaryDisabled",
-      "foreground": "onSecondary"
+      "background": "primaryContainer",
+      "disabledText": "onSurface38",
+      "foreground": "onSurface",
+      "select": "debugB"
     },
     "ComboBox": {
       "ArrowButton": {
-        "background": "secondary",
-        "iconColor": "onTertiary",
-        "disabledIconColor": "onPrimaryDisabled"
+        "background": "primaryContainer",
+        "nonEditableBackground": "primaryContainer",
+        "iconColor": "primary",
+        "disabledIconColor": "onSurface38"
       },
-      "background": "tertiaryContainer",
-      "disabledForeground": "onSecondaryDisabled",
-      "disabledBackground": "secondary",
-      "foreground": "onTertiaryContainer",
-      "borderColor": "primary",
-      "selectionBackground": "primaryContainer",
+      "background": "primaryContainer",
+      "disabledForeground": "onSurface38",
+      "disabledBackground": "primaryContainer",
+      "foreground": "onPrimaryContainer",
+      "borderColor": "outline",
+      "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
     },
     "ComboBoxButton": {
-      "background": "tertiary",
-      "border": "primary"
+      "background": "primaryContainer",
+      "border": "outline"
     },
     "ComplexPopup": {
       "Header": {
-        "background": "secondary",
-        "foreground": "onSecondaryContainer"
+        "background": "primaryContainer",
+        "foreground": "onPrimaryContainer"
       }
     },
     "CompletionPopup": {
       "Advertiser": {
-        "background": "secondary",
-        "foreground": "onSecondary"
+        "background": "primaryContainer",
+        "foreground": "onPrimaryContainer"
       },
-      "foreground": "onSecondaryContainer",
-      "selectionBackground": "primarySurface5",
-      "matchForeground": "onPrimarySurface5",
-      "selectionInactiveBackground": "primarySurface5"
+      "foreground": "onBackground",
+      "selectionBackground": "primarySurface0",
+      "matchForeground": "primary",
+      "selectionInactiveBackground": "primarySurface1"
     },
     "Component": {
-      "borderColor": "outlineHard",
+      "borderColor": "outline",
       "focusColor": "transparent",
-      "focusedBorderColor": "transparent",
-      "infoForeground": "onSecondaryDisabled"
+      "focusedBorderColor": "primary",
+      "infoForeground": "primary"
     },
     "Counter": {
       "background": "primary",
       "foreground": "onPrimary"
     },
+    "Debugger": {
+      "EvaluateExpression": {
+        "background": "background"
+      }
+    },
     "DefaultTabs": {
-      "background": "secondary",
-      "borderColor": "outlineSoft",
-      "hoverBackground": "primarySurface5",
+      "background": "primaryContainer",
+      "borderColor": "outlineVariant",
+      "hoverBackground": "primarySurface1",
       "underlineColor": "primary",
       "underlinedTabForeground": "primary",
-      "inactiveUnderlineColor": "primary",
+      "inactiveUnderlineColor": "outlineVariant",
       "underlineHeight": 3
     },
     "DragAndDrop": {
-      "areaForeground": "onPrimarySurface2",
+      "areaForeground": "primary",
       "borderColor": "transparent",
-      "rowBackground": "primarySurface2"
+      "rowBackground": "primarySurface0"
     },
     "Editor": {
-      "background": "secondarySurface5",
+      "background": "background",
+      "foreground": "onBackground",
+      "shortcutForeground": "primary",
       "SearchField": {
-        "background": "tertiary",
+        "background": "background",
         "borderInsets": "4,4,0,0"
       },
       "Toolbar": {
-        "borderColor": "outlineHard"
+        "borderColor": "outlineVariant"
       },
       "ToolTip": {
-        "background": "tertiary",
-        "foreground": "onTertiary"
+        "background": "background",
+        "foreground": "onBackground"
       }
     },
     "EditorPane": {
-      "background": "secondary",
-      "foreground": "onSecondary"
+      "caretForeground": "debugA",
+      "background": "background",
+      "foreground": "onBackground",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer",
+      "splitBorder": "outlineVariant"
     },
     "EditorTabs": {
-      "borderColor": "outlineSoft",
-      "hoverBackground": "primarySurface2",
-      "inactiveUnderlineColor": "primary",
+      "background": "debugA",
+      "borderColor": "outlineVariant",
+      "hoverBackground": "primarySurface0",
+      "inactiveColoredFileBackground": "debugA",
+      "inactiveUnderlineColor": "outlineVariant",
+      "tabInsets": "-2,10,-2,6",
       "underlineArc": "20",
       "underlineColor": "primary",
-      "underlinedTabForeground": "primary",
-      "tabInsets": "-2,10,-2,6"
+      "underlineHeight": "3",
+      "underlinedTabBackground": "debugA",
+      "underlinedTabForeground": "primary"
+    },
+    "Group": {
+      "separatorColor": "outlineVariant",
+      "disabledSeparatorColor": "outline"
+    },
+    "IconBadge": {
+      "errorBackground": "error",
+      "infoBackground": "info",
+      "warningBackground": "warning"
     },
     "Label": {
-      "foreground": "onSecondaryContainer",
-      "infoForeground": "onPrimarySurface1"
+      "background": "transparent",
+      "disabledForeground": "onSurface38",
+      "foreground": "onSurface",
+      "infoForeground": "onSurface"
     },
     "Link": {
       "activeForeground": "primary",
-      "hoverForeground": "onPrimarySurface1"
+      "hoverForeground": "onPrimaryContainer"
     },
     "List": {
-      "background": "tertiary",
-      "foreground": "onTertiaryContainer",
-      "selectionBackground": "primaryContainer",
-      "selectionForeground": "onPrimarySurface5",
-      "selectionInactiveBackground": "secondaryContainer",
-      "selectionInactiveForeground": "onSecondaryContainer"
+      "background": "primaryContainer",
+      "foreground": "onSurface",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer",
+      "selectionInactiveBackground": "primarySurface0",
+      "selectionInactiveForeground": "onSurface"
     },
     "MainMenu": {
-      "foreground": "onSecondaryContainer",
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5"
+      "foreground": "onSurface",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer"
     },
     "MainToolbar": {
-      "background": "secondary",
-      "inactiveBackground": "secondary",
+      "background": "primaryContainer",
+      "inactiveBackground": "primaryContainer",
       "Dropdown": {
-        "background": "secondaryContainer",
-        "foreground": "onSecondaryContainer",
-        "hoverBackground": "primarySurface5",
-        "hoverForeground": "onPrimarySurface5",
+        "background": "primaryContainer",
+        "foreground": "onSurface",
+        "hoverBackground": "primarySurface1",
+        "hoverForeground": "primary",
         "borderInsets": "0,12,0,8"
       },
       "Icon": {
-        "background": "onSecondary",
-        "disabledBackground": "onSecondaryDisabled",
-        "hoverBackground": "primarySurface5",
-        "pressedBackground": "primarySurface2"
-      }
+        "background": "debugA",
+        "foreground": "debugB",
+        "disabledBackground": "debugA",
+        "hoverBackground": "primarySurface0",
+        "pressedBackground": "primarySurface1"
+      },
+      "separatorColor": "outlineVariant"
     },
     "MainWindow": {
       "Tab": {
-        "borderColor": "debug"
+        "borderColor": "debugA",
+        "separatorColor": "debugB"
       }
     },
     "MemoryIndicator": {
-      "allocatedBackground": "primaryContainer",
-      "usedBackground": "primarySurface2"
+      "allocatedBackground": "primarySurface0",
+      "usedBackground": "primarySurface1"
     },
     "Menu": {
-      "borderColor": "outline",
-      "background": "tertiary",
-      "foreground": "onTertiaryContainer",
+      "borderColor": "outlineVariant",
+      "background": "background",
+      "foreground": "onBackground",
       "borderInsets": "12,8,12,8",
       "Selection": {
         "innerInsets": "8,16,8,12",
         "outerInsets": "4,0,4,0",
         "arc": 20
       },
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "primary",
-      "separatorColor": "secondarySurface1"
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer",
+      "separatorColor": "outlineVariant"
     },
     "MenuBar": {
       "borderColor": "transparent"
     },
     "MenuItem": {
-      "acceleratorSelectionForeground": "onPrimarySurface5",
-      "acceleratorForeground": "onSecondary",
-      "background": "secondary",
-      "disabledForeground": "onSecondaryDisabled",
-      "foreground": "onTertiaryContainer",
-      "selectionForeground": "onPrimarySurface5"
+      "acceleratorSelectionForeground": "primary",
+      "acceleratorForeground": "primary",
+      "background": "primaryContainer",
+      "disabledForeground": "onSurface38",
+      "foreground": "onSurface",
+      "selectionForeground": "onPrimaryContainer"
     },
     "Notification": {
+      "arc": "28",
+      "background": "background",
+      "foreground": "onBackground",
+      "borderColor": "outline",
+      "Button": {
+        "background": "primary",
+        "borderColor": "transparent",
+        "foreground": "onPrimary"
+      },
       "errorBackground": "errorContainer",
       "errorBorderColor": "error",
       "errorForeground": "onErrorContainer",
+      "linkForeground": "primary",
+      "MoreButton": {
+        "background": "primaryContainer",
+        "foreground": "onPrimaryContainer",
+        "innerBorderColor": "outlineVariant"
+      },
       "ToolWindow": {
+        "errorBackground": "errorContainer",
+        "errorForeground": "onErrorContainer",
         "informativeBackground": "infoContainer",
         "informativeBorderColor": "info",
         "informativeForeground": "onInfoContainer",
@@ -318,16 +351,31 @@
         "warningForeground": "onWarningContainer"
       }
     },
+    "NewClass": {
+      "SearchField": {
+        "background": "background"
+      }
+    },
+    "OptionPane": {
+      "background": "primaryContainer"
+    },
     "Panel": {
-      "background": "secondary",
-      "foreground": "onSecondary"
+      "background": "primaryContainer",
+      "foreground": "onSurface"
     },
     "ParameterInfo": {
-      "background": "primary"
+      "background": "primaryContainer",
+      "borderColor": "outlineVariant"
+    },
+    "PasswordField": {
+      "background": "primaryContainer",
+      "foreground": "onPrimaryContainer",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "primary"
     },
     "Plugins": {
-      "background": "tertiary",
-      "borderColor": "outlineSoft",
+      "background": "background",
+      "borderColor": "outlineVariant",
       "Button": {
         "updateBackground": "primary",
         "updateBorderColor": "transparent",
@@ -338,61 +386,106 @@
         "installForeground": "primary",
         "installFillForeground": "primary"
       },
-      "lightSelectionBackground": "primarySurface3",
+      "hoverBackground": "primarySurface0",
+      "lightSelectionBackground": "primarySurface0",
       "tagBackground": "primaryContainer",
       "tagForeground": "primary",
       "SearchField": {
-        "background": "tertiary",
-        "borderColor": "outline"
+        "background": "primaryContainer",
+        "borderColor": "debugB"
       },
       "SectionHeader": {
-        "background": "secondary",
-        "foreground": "onSecondaryContainer"
+        "background": "primaryContainer",
+        "foreground": "onSurface"
       },
       "Tab": {
-        "hoverBackground": "primarySurface2",
-        "selectedForeground": "primarySurface5"
+        "hoverBackground": "primarySurface0",
+        "selectedForeground": "primary"
       }
     },
     "Popup": {
       "Advertiser": {
-        "background": "secondary",
-        "foreground": "onSecondary"
+        "background": "primaryContainer",
+        "foreground": "onSurface",
+        "borderColor": "outlineVariant"
       },
-      "background": "tertiary",
-      "borderColor": "secondaryContainer",
-      "foreground": "onTertiary"
+      "background": "background",
+      "borderColor": "outlineVariant",
+      "foreground": "onBackground",
+      "Header": {
+        "activeBackground": "primaryContainer",
+        "activeForeground": "onPrimaryContainer",
+        "inactiveBackground": "primaryContainer",
+        "inactiveForeground": "onPrimaryContainer"
+      },
+      "separatorColor": "outlineVariant"
     },
     "PopupMenu": {
-      "background": "tertiary",
-      "foreground": "onTertiaryContainer"
+      "background": "background",
+      "foreground": "onBackground"
+    },
+    "ProgressBar": {
+      "indeterminateEndColor": "secondary",
+      "indeterminateStartColor": "primary",
+      "progressColor": "primary",
+      "warningColor": "warning",
+      "warningEndColor": "warningContainer",
+      "trackColor": "primarySurface0"
     },
     "RadioButton": {
-      "background": "tertiary",
-      "foreground": "onTertiaryContainer"
+      "background": "primaryContainer",
+      "foreground": "onSurface"
+    },
+    "RunToolbar": {
+      "Debug": {
+        "activeBackground": "debugA"
+      },
+      "Profile": {
+        "activeBackground": "debugA"
+      },
+      "Run": {
+        "activeBackground": "debugA"
+      }
     },
     "RunWidget": {
-      "background": "primary",
-      "foreground": "onPrimary"
+      "background": "primaryContainer",
+      "disabledForeground": "onSurface38",
+      "foreground": "onSurface",
+      "hoverBackground": "primarySurface0",
+      "pressedBackground": "primarySurface1",
+      "runningBackground": "tertiary",
+      "separatorColor": "outlineVariant"
     },
     "ScrollBar": {
-      "background": "secondary",
-      "thumbColor": "secondaryContainer",
+      "background": "primaryContainer",
+      "hoverTrackColor": "primaryContainer",
+      "hoverThumbColor": "primarySurface1",
+      "thumbColor": "primarySurface0",
+      "thumbBorderColor": "primarySurface0",
       "Transparent": {
-        "thumbColor": "secondaryContainer"
+        "hoverThumbColor": "primarySurface1",
+        "hoverThumbBorderColor": "primarySurface1",
+        "hoverTrackColor": "primaryContainer",
+        "trackColor": "primaryContainer",
+        "thumbBorderColor": "primarySurface0",
+        "thumbColor": "primarySurface0"
       }
     },
     "SearchEverywhere": {
       "Advertiser": {
-        "background": "secondaryContainer",
-        "foreground": "onSecondaryContainer"
+        "background": "primaryContainer",
+        "foreground": "onPrimaryContainer"
       },
       "List": {
-        "settingsBackground": "secondary"
+        "settingsBackground": "primaryContainer"
       }
     },
     "SearchField": {
+      "errorBackground": "errorContainer",
       "errorForeground": "error"
+    },
+    "Separator": {
+      "separatorColor": "outlineVariant"
     },
     "Settings": {
       "Spotlight": {
@@ -400,88 +493,115 @@
       }
     },
     "SidePanel": {
-      "background": "secondary"
+      "background": "primaryContainer"
     },
     "Slider": {
-      "background": "transparent",
+      "background": "primaryContainer",
       "buttonColor": "primary",
       "buttonBorderColor": "transparent",
       "focus": "transparent",
-      "trackColor": "primarySurface5",
-      "tickColor": "onPrimarySurface1"
+      "trackColor": "primarySurface0",
+      "tickColor": "primary"
+    },
+    "SpeedSearch": {
+      "background": "background",
+      "foreground": "onPrimaryContainer",
+      "borderColor": "primary",
+      "borderInsets": "4,4,4,2"
     },
     "Spinner": {
-      "background": "transparent"
+      "background": "primaryContainer"
     },
     "StatusBar": {
-      "borderColor": "secondarySurface5",
-      "background": "secondary",
+      "borderColor": "outlineVariant",
+      "background": "primaryContainer",
       "Breadcrumbs": {
-        "foreground": "onSecondaryContainer",
-        "hoverForeground": "primary"
+        "foreground": "onSurface",
+        "hoverForeground": "onPrimaryContainer"
       },
       "Widget": {
-        "foreground": "onSecondaryContainer",
-        "hoverForeground": "primary",
-        "pressedBackground": "secondarySurface2"
+        "foreground": "onSurface",
+        "hoverForeground": "onPrimaryContainer",
+        "pressedBackground": "primarySurface0"
       }
     },
     "TabbedPane": {
-      "background": "secondary",
+      "background": "primaryContainer",
       "disabledUnderlineColor": "primary",
+      "focusColor": "primarySurface1",
       "hoverColor": "primarySurface2",
       "underlineColor": "primary",
       "underlineHeight": 3
     },
     "Table": {
-      "background": "secondary",
-      "foreground": "onSecondaryContainer",
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5"
+      "background": "primaryContainer",
+      "foreground": "onSurface",
+      "hoverBackground": "primarySurface0",
+      "selectionBackground": "primarySurface0",
+      "selectionForeground": "primary",
+      "selectionInactiveBackground": "surface0",
+      "stripeColor": "secondaryContainer"
     },
     "TableHeader": {
-      "background": "secondarySurface1",
-      "foreground": "onTertiaryContainer",
-      "cellBorder": "6,4,6,4"
+      "background": "primarySurface0",
+      "cellBorder": "6,4,6,4",
+      "foreground": "onPrimaryContainer",
+      "separatorColor": "outlineVariant"
     },
     "TextArea": {
-      "background": "secondary",
-      "foreground": "onSecondary",
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5"
+      "background": "background",
+      "foreground": "onBackground",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer"
     },
     "TextField": {
-      "background": "tertiary",
-      "borderColor": "onSecondary",
-      "foreground": "onSecondary",
-      "selectionBackground": "primarySurface5",
-      "selectionForeground": "onPrimarySurface5"
+      "background": "primaryContainer",
+      "borderColor": "outlineVariant",
+      "foreground": "onSurface",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer"
+    },
+    "TextPane": {
+      "foreground": "onPrimaryContainer"
+    },
+    "TipOfTheDay": {
+      "Image": {
+        "borderColor": "outlineVariant"
+      }
     },
     "TitlePane": {
-      "background": "secondary",
-      "inactiveBackground": "secondary"
+      "background": "primaryContainer",
+      "inactiveBackground": "primaryContainer"
+    },
+    "Tooltip": {
+      "Learning": {
+        "borderColor": "outlineVariant"
+      }
     },
     "ToolTip": {
       "Actions": {
-        "background": "secondary",
+        "background": "background",
         "infoForeground": "primary"
       },
-      "background": "primarySurface5",
-      "foreground": "onPrimarySurface5",
-      "shortcutForeground": "onPrimaryDisabled"
+      "background": "background",
+      "borderColor": "primary",
+      "foreground": "onBackground",
+      "infoForeground": "primary",
+      "shortcutForeground": "primary"
     },
     "ToolWindow": {
-      "background": "secondary",
+      "background": "primaryContainer",
       "Header": {
-        "borderColor": "outline",
-        "inactiveBackground": "secondary"
+        "background": "primaryContainer",
+        "borderColor": "outlineVariant",
+        "inactiveBackground": "primaryContainer"
       },
       "HeaderTab": {
-        "hoverBackground": "primarySurface2",
-        "hoverInactiveBackground": "primarySurface5",
+        "hoverBackground": "primarySurface1",
+        "hoverInactiveBackground": "primarySurface0",
         "inactiveUnderlineColor": "primary",
         "underlineColor": "primary",
-        "underlinedTabBackground": "secondary",
+        "underlinedTabBackground": "primaryContainer",
         "underlinedTabForeground": "primary"
       }
     },
@@ -491,47 +611,60 @@
       }
     },
     "Tree": {
-      "background": "tertiary",
+      "background": "primaryContainer",
       "border": "8,24,4,8",
       "collapsedIcon": "/general/chevron-right.svg",
       "collapsedSelectedIcon": "/general/chevron-right.svg",
       "expandedIcon": "/general/chevron-down.svg",
       "expandedSelectedIcon": "/general/chevron-down.svg",
-      "foreground": "onSecondary",
+      "foreground": "onSurface",
+      "hash": "outlineVariant",
+      "hoverInactiveBackground": "primarySurface1",
       "leftChildIndent": 4,
+      "modifiedItemForeground": "onSecondary",
+      "paintLines": true,
       "rightChildIndent": 12,
       "rowHeight": 24,
-      "hoverInactiveBackground": "primarySurface1",
-      "selectionBackground": "primarySurface3",
-      "selectionForeground": "onPrimarySurface4",
-      "selectionInactiveBackground": "primarySurface2",
-      "selectionInactiveForeground": "onPrimarySurface2",
       "Selection": {
         "arc": 20
-      }
+      },
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer",
+      "selectionInactiveBackground": "primarySurface0",
+      "selectionInactiveForeground": "onSurface"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "errorContainer",
+      "errorBorderColor": "error",
+      "warningBackground": "warningContainer",
+      "warningBorderColor": "warning"
     },
     "VersionControl": {
       "Log": {
         "Commit": {
-          "currentBranchBackground": "tertiary",
-          "hoveredBackground": "primaryContainer",
-          "selectionBackground": "primaryContainer",
-          "selectionForeground": "onPrimaryContainer",
-          "selectionInactiveBackground": "secondaryContainer",
-          "selectionInactiveForeground": "onSecondaryContainer"
+          "currentBranchBackground": "secondaryContainer",
+          "hoveredBackground": "secondarySurface1",
+          "selectionBackground": "secondarySurface1",
+          "selectionForeground": "onSurface",
+          "selectionInactiveBackground": "secondarySurface0",
+          "selectionInactiveForeground": "onSurface"
         }
       },
       "MarkerPopup": {
-        "borderColor": "outline",
+        "borderColor": "outlineVariant",
         "Toolbar": {
-          "background": "secondary",
-          "foreground": "onSecondary"
+          "background": "primaryContainer",
+          "foreground": "onPrimaryContainer"
         }
       },
       "RefLabel": {
         "backgroundBase": "primary",
-        "foreground": "primary"
+        "foreground": "onPrimaryContainer"
       }
+    },
+    "Viewport": {
+      "background": "debugA",
+      "foreground": "debugB"
     }
   }
 }
