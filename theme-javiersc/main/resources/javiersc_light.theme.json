@@ -112,7 +112,8 @@
       "hoverBackground": "primarySurface1",
       "hoverBorderColor": "primarySurface1",
       "pressedBackground": "primarySurface1",
-      "pressedBorderColor": "primarySurface1"
+      "pressedBorderColor": "primarySurface1",
+      "separatorColor": "outlineVariant"
     },
     "Banner": {
       "foreground": "onPrimaryContainer",
@@ -432,6 +433,7 @@
     },
     "ParameterInfo": {
       "background": "primaryContainer",
+      "foreground": "onPrimaryContainer",
       "borderColor": "outlineVariant"
     },
     "PasswordField": {
