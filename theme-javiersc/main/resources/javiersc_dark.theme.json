@@ -380,6 +380,7 @@
       "background": "primaryContainer",
       "disabledForeground": "onSurface38",
       "foreground": "onSurface",
+      "selectionBackground": "primarySurface1",
       "selectionForeground": "onPrimaryContainer"
     },
     "NewClass": {
