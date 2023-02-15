@@ -808,7 +808,7 @@
         }
       },
       "Panel": {
-        "background": "debugA"
+        "background": "background"
       }
     },
     "Viewport": {
