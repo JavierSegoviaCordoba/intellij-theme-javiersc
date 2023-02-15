@@ -112,7 +112,7 @@
       "separatorColor": "debug8",
       "shadowColor": "debug1",
       "underlineColor": "debug6",
-      "underlinedTabForeground": "debug7",
+      "underlinedTabForeground": "debug8",
       "underlineHeight": 5
     },
     "ActionButton": {
@@ -814,7 +814,8 @@
         }
       },
       "Panel": {
-        "background": "background"
+        "background": "background",
+        "borderColor": "outlineVariant"
       }
     },
     "Viewport": {

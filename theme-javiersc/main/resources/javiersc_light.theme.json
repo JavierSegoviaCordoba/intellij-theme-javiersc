@@ -793,8 +793,7 @@
     },
     "UIDesigner": {
       "Canvas": {
-        "background": "primaryContainer",
-        "borderColor": ""
+        "background": "primaryContainer"
       },
       "Interactive": {
         "Preview": {
@@ -802,7 +801,8 @@
         }
       },
       "Panel": {
-        "background": "background"
+        "background": "background",
+        "borderColor": "outlineVariant"
       }
     },
     "Viewport": {
