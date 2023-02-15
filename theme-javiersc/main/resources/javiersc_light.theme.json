@@ -239,7 +239,7 @@
         "background": "background",
         "borderInsets": "4,4,0,0"
       },
-      "shortcutForeground": "primary",
+      "shortcutForeground": "onSurface38",
       "Toolbar": {
         "borderColor": "outlineVariant"
       },
@@ -662,7 +662,10 @@
       "selectionForeground": "onPrimaryContainer"
     },
     "TextPane": {
-      "foreground": "onPrimaryContainer"
+      "background": "primaryContainer",
+      "foreground": "onSurface",
+      "selectionBackground": "primarySurface1",
+      "selectionForeground": "onPrimaryContainer"
     },
     "TipOfTheDay": {
       "Image": {
