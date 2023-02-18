@@ -638,8 +638,10 @@
     },
     "TabbedPane": {
       "background": "primaryContainer",
+      "contentAreaColor": "outlineVariant",
       "disabledUnderlineColor": "primary",
       "focusColor": "primarySurfaceAlpha0",
+      "foreground": "onSurface",
       "hoverColor": "primarySurfaceAlpha1",
       "underlineColor": "primary",
       "underlineHeight": 5
