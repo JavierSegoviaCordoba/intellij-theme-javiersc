@@ -709,7 +709,7 @@
         "infoForeground": "primary"
       },
       "background": "background",
-      "borderColor": "primary",
+      "borderColor": "onSurface38",
       "foreground": "onBackground",
       "infoForeground": "primary",
       "shortcutForeground": "onSurface38"
