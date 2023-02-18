@@ -821,8 +821,8 @@
       }
     },
     "Viewport": {
-      "background": "debugA",
-      "foreground": "debugB"
+      "background": "primaryContainer",
+      "foreground": "onSurface76"
     },
     "WelcomeScreen": {
       "background": "primaryContainer",
