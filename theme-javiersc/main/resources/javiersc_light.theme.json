@@ -641,6 +641,7 @@
       "foreground": "onSurface",
       "hoverBackground": "primarySurfaceAlpha1",
       "lightSelectionBackground": "primarySurfaceAlpha0",
+      "lightSelectionInactiveForeground": "onSurface",
       "selectionBackground": "primarySurfaceAlpha0",
       "selectionForeground": "primary",
       "selectionInactiveBackground": "surface0",
