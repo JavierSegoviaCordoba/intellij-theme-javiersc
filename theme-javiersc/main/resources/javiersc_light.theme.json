@@ -151,7 +151,8 @@
         "arc": 8,
         "endBackground": "primary",
         "endBorderColor": "transparent",
-        "focusedBorderColor": "primary",
+        "focusColor": "primary",
+        "focusedBorderColor": "primaryContainer",
         "foreground": "onPrimary",
         "shadowColor": "transparent",
         "startBackground": "primary",
@@ -159,11 +160,13 @@
       },
       "disabledBorderColor": "onSurface12",
       "disabledText": "onSurface38",
-      "endBorderColor": "primary",
+      "endBackground": "primaryContainer",
+      "endBorderColor": "outline",
       "focusedBorderColor": "primary",
-      "foreground": "primary",
+      "foreground": "onSurface",
       "shadowColor": "transparent",
-      "startBorderColor": "primary"
+      "startBackground": "primaryContainer",
+      "startBorderColor": "outline"
     },
     "CheckBox": {
       "background": "primaryContainer",
@@ -208,7 +211,7 @@
     },
     "Component": {
       "borderColor": "outline",
-      "focusColor": "transparent",
+      "focusColor": "primary",
       "focusedBorderColor": "primary",
       "infoForeground": "primary"
     },
