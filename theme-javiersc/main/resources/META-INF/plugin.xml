@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.javiersc.intellij.theme</id>
-    <name>IDEA Theme - JavierSC</name>
+    <name>Theme - JavierSC</name>
     <vendor>JavierSC</vendor>
     <description>JavierSC light and dark themes for IntelliJ IDEA</description>
 
