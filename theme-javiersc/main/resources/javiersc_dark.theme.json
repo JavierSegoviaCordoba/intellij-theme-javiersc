@@ -89,30 +89,30 @@
   "name": "JavierSC Dark",
   "ui": {
     "*": {
-      "acceleratorSelectionForeground": "debug6",
-      "background": "debug1",
-      "borderColor": "debug7",
-      "disabledBackground": "debug2",
-      "disabledUnderlineColor": "debug8",
-      "errorBackground": "debug3",
-      "foreground": "debug9",
-      "highlight": "debug8",
-      "hoverBackground": "debug5",
-      "hoverForeground": "debug10",
-      "inactiveUnderlineColor": "debug6",
-      "lightSelectionBackground": "debug3",
-      "lightSelectionForeground": "debug6",
-      "lightSelectionInactiveBackground": "debug2",
-      "lightSelectionInactiveForeground": "debug8",
-      "selectedBackground": "debug3",
-      "selectedForeground": "debug10",
-      "selectedHoveredBackground": "debug2",
-      "selectionBackground": "debug5",
-      "selectionForeground": "debug10",
-      "separatorColor": "debug8",
-      "shadowColor": "debug1",
-      "underlineColor": "debug6",
-      "underlinedTabForeground": "debug8",
+      "acceleratorSelectionForeground": "onSurface76",
+      "background": "primaryContainer",
+      "borderColor": "outlineVariant",
+      "disabledBackground": "primaryContainer",
+      "disabledUnderlineColor": "primary",
+      "errorBackground": "errorContainer",
+      "foreground": "onSurface",
+      "highlight": "primarySurface1",
+      "hoverBackground": "primarySurfaceAlpha0",
+      "hoverForeground": "onPrimaryContainer",
+      "inactiveUnderlineColor": "outlineVariant",
+      "lightSelectionBackground": "primarySurfaceAlpha0",
+      "lightSelectionForeground": "onSurface",
+      "lightSelectionInactiveBackground": "primarySurfaceAlpha0",
+      "lightSelectionInactiveForeground": "onSurface",
+      "selectedBackground": "primarySurfaceAlpha1",
+      "selectedForeground": "onPrimaryContainer",
+      "selectedHoveredBackground": "primarySurfaceAlpha1",
+      "selectionBackground": "primarySurfaceAlpha1",
+      "selectionForeground": "onPrimaryContainer",
+      "separatorColor": "outlineVariant",
+      "shadowColor": "transparent",
+      "underlineColor": "primary",
+      "underlinedTabForeground": "onPrimaryContainer",
       "underlineHeight": 5
     },
     "ActionButton": {
@@ -172,7 +172,7 @@
       "background": "primaryContainer",
       "disabledText": "onSurface38",
       "foreground": "onSurface",
-      "select": "debugB"
+      "select": "primary"
     },
     "ComboBox": {
       "ArrowButton": {
@@ -342,9 +342,9 @@
         "hoverForeground": "primary"
       },
       "Icon": {
-        "background": "debugA",
-        "disabledBackground": "debugA",
-        "foreground": "debugB",
+        "background": "primaryContainer",
+        "disabledBackground": "background",
+        "foreground": "onSurface",
         "hoverBackground": "primarySurfaceAlpha0",
         "pressedBackground": "primarySurfaceAlpha1"
       },
@@ -353,8 +353,8 @@
     },
     "MainWindow": {
       "Tab": {
-        "borderColor": "debugA",
-        "separatorColor": "debugB"
+        "borderColor": "outlineVariant",
+        "separatorColor": "outlineVariant"
       }
     },
     "MemoryIndicator": {
@@ -476,7 +476,7 @@
       "lightSelectionBackground": "primarySurfaceAlpha0",
       "SearchField": {
         "background": "primaryContainer",
-        "borderColor": "debugB"
+        "borderColor": "outlineVariant"
       },
       "SectionHeader": {
         "background": "primaryContainer",
@@ -525,17 +525,6 @@
     "RadioButton": {
       "background": "primaryContainer",
       "foreground": "onSurface"
-    },
-    "RunToolbar": {
-      "Debug": {
-        "activeBackground": "debugA"
-      },
-      "Profile": {
-        "activeBackground": "debugA"
-      },
-      "Run": {
-        "activeBackground": "debugA"
-      }
     },
     "RunWidget": {
       "background": "primaryContainer",
