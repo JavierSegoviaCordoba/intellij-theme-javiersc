@@ -201,7 +201,7 @@
       },
       "foreground": "onBackground",
       "matchForeground": "primary",
-      "selectionBackground": "primarySurfaceAlpha0",
+      "selectionBackground": "primarySurfaceAlpha1",
       "selectionInactiveBackground": "primarySurfaceAlpha1"
     },
     "ComplexPopup": {
