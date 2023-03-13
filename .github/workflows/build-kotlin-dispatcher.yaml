@@ -15,16 +15,10 @@ on:
 
 jobs:
   build:
-    uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/build-kotlin.yaml@hubdle
+    uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/build-kotlin.yaml@main
     with:
       gradle-args: '${{ github.event.inputs.gradle-args }}'
       allow-github-actor-bots: false
-      all-tests: false
-      api-check: false
-      code-analysis-check: false
-      code-format-check: false
-      code-quality-check: false
-      deploy-reports: false
       publish-snapshot: false
       deploy-docs: false
       publish-all-docs: '${{ github.event.inputs.publish-all-docs }}'

@@ -1,9 +1,8 @@
-plugins {
-    alias(libs.plugins.javiersc.hubdle)
-}
+plugins { alias(libs.plugins.javiersc.hubdle) }
 
 hubdle {
     config {
+        analysis()
         documentation {
             changelog()
             readme {

@@ -1,7 +1,3 @@
-plugins {
-    alias(libs.plugins.javiersc.hubdle)
-}
-
 repositories {
     mavenCentral()
     maven(url = "https://www.jetbrains.com/intellij-repository/snapshots/")
@@ -9,6 +5,7 @@ repositories {
 
 hubdle {
     config {
+        analysis()
         explicitApi()
         publishing()
     }
@@ -16,9 +13,7 @@ hubdle {
         jvm {
             features {
                 jvmVersion(JavaVersion.VERSION_17)
-                intellij {
-                    plugin()
-                }
+                intellij { plugin() }
             }
         }
     }
