@@ -6,6 +6,8 @@
 
 ### Changed
 
+- `intellij.version` to 2023.1
+
 ### Deprecated
 
 ### Removed
