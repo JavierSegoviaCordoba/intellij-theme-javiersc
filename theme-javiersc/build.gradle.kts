@@ -6,6 +6,7 @@ repositories {
 hubdle {
     config {
         analysis()
+        coverage()
         explicitApi()
         publishing()
     }
