@@ -6,13 +6,19 @@
 
 ### Changed
 
-- `intellij.version` to 2023.1
-
 ### Deprecated
 
 ### Removed
 
 ### Fixed
+
+### Updated
+
+## [0.3.0] - 2023-07-14
+
+### Changed
+
+- `intellij.version` to 2023.1
 
 ### Updated
 
@@ -99,3 +105,25 @@
 ## [0.1.0] - 2021-10-24
 
 - No changes
+
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.0...HEAD
+
+[0.3.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.5...0.3.0
+
+[0.2.5]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.4...0.2.5
+
+[0.2.4]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.3...0.2.4
+
+[0.2.3]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.2...0.2.3
+
+[0.2.2]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.1...0.2.2
+
+[0.2.1]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.0...0.2.1
+
+[0.2.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.1.2...0.2.0
+
+[0.1.2]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.1.1...0.1.2
+
+[0.1.1]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.1.0...0.1.1
+
+[0.1.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/commits/0.1.0
