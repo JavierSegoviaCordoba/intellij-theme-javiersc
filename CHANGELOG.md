@@ -12,6 +12,8 @@
 
 ### Fixed
 
+- Kotlin stdlib dependency is not removed
+
 ### Updated
 
 ## [0.3.0] - 2023-07-14
