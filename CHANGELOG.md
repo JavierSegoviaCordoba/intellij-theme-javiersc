@@ -12,9 +12,13 @@
 
 ### Fixed
 
-- Kotlin stdlib dependency is not removed
-
 ### Updated
+
+## [0.3.1] - 2023-07-15
+
+### Fixed
+
+- Kotlin stdlib dependency is not removed
 
 ## [0.3.0] - 2023-07-14
 
@@ -108,7 +112,9 @@
 
 - No changes
 
-[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.0...HEAD
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.1...HEAD
+
+[0.3.1]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.0...0.3.1
 
 [0.3.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.2.5...0.3.0
 
