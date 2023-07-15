@@ -10,9 +10,15 @@
 
 ### Removed
 
-- signing configuration
-
 ### Fixed
+
+### Updated
+
+## [0.3.2] - 2023-07-15
+
+### Removed
+
+- signing configuration
 
 ### Updated
 
@@ -117,7 +123,9 @@
 
 - No changes
 
-[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.1...HEAD
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.2...HEAD
+
+[0.3.2]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.1...0.3.2
 
 [0.3.1]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.0...0.3.1
 
