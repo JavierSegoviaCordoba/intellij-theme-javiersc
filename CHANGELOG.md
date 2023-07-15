@@ -10,6 +10,8 @@
 
 ### Removed
 
+- signing configuration
+
 ### Fixed
 
 ### Updated

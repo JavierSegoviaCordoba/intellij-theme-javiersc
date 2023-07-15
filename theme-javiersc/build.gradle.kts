@@ -5,7 +5,11 @@ repositories {
 
 hubdle {
     config { //
-        publishing()
+        publishing { //
+            signing { //
+                isEnabled.set(false)
+            }
+        }
     }
     java {
         features {
