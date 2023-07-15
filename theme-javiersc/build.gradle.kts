@@ -4,19 +4,14 @@ repositories {
 }
 
 hubdle {
-    config {
-        analysis()
-        coverage()
-        explicitApi()
+    config { //
         publishing()
     }
-    kotlin {
-        jvm {
-            features {
-                jvmVersion(JavaVersion.VERSION_17)
-                intellij { //
-                    plugin()
-                }
+    java {
+        features {
+            jvmVersion(JavaVersion.VERSION_17)
+            intellij { //
+                plugin()
             }
         }
     }
