@@ -9,6 +9,7 @@ jobs:
   publish:
     uses: JavierSegoviaCordoba/reusable-workflows/.github/workflows/publish-kotlin.yaml@main
     with:
+      code-quality-check: false
       publish-maven-central: false
       publish-gradle-plugin-portal: false
       publish-jetbrains-marketplace: true
