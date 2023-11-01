@@ -87,6 +87,7 @@
     }
   },
   "name": "JavierSC Light",
+  "nameKey": "light.theme.name",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "onSurface76",

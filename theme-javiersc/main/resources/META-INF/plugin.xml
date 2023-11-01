@@ -4,6 +4,8 @@
     <vendor>JavierSC</vendor>
     <description>JavierSC light and dark themes for IntelliJ IDEA</description>
 
+    <resource-bundle>messages.JavierScBundle</resource-bundle>
+
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">

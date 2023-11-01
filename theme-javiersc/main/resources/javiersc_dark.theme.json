@@ -87,6 +87,7 @@
     }
   },
   "name": "JavierSC Dark",
+  "nameKey": "dark.theme.name",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "onSurface76",
