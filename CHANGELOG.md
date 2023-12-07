@@ -4,8 +4,6 @@
 
 ### Added
 
-- workaround for 2023.3 issue due internal parser in IDEA
-
 ### Changed
 
 ### Deprecated
@@ -13,6 +11,14 @@
 ### Removed
 
 ### Fixed
+
+### Updated
+
+## [0.3.3] - 2023-12-07
+
+### Added
+
+- workaround for 2023.3 issue due internal parser in IDEA
 
 ### Updated
 
@@ -128,7 +134,9 @@
 
 - No changes
 
-[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.2...HEAD
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.3...HEAD
+
+[0.3.3]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.2...0.3.3
 
 [0.3.2]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.1...0.3.2
 
