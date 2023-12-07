@@ -1,5 +1,8 @@
 {
+  "name": "JavierSC Dark",
   "author": "Javier Segovia Córdoba",
+  "dark": true,
+  "editorScheme": "/javiersc_dark.xml",
   "colors": {
     "background": "#1B1F24",
     "debug1": "#f054ff",
@@ -53,40 +56,6 @@
     "warning": "#b49b0f",
     "warningContainer": "#534a17"
   },
-  "dark": true,
-  "editorScheme": "/javiersc_dark.xml",
-  "icons": {
-    "ColorPalette": {
-      "Actions.Blue": "#40a0e0",
-      "Actions.Green": "#34ad38",
-      "Actions.Grey": "#979FAD",
-      "Actions.Grey.Dark": "#979FAD",
-      "Actions.GreyInline": "#AEB9C0",
-      "Actions.GreyInline.Dark": "#8C929B",
-      "Actions.Red": "#ca2643",
-      "Actions.Yellow": "#fccb40",
-      "Checkbox.Background.Selected": "background",
-      "Checkbox.Border.Default": "onSurface",
-      "Checkbox.Border.Selected": "onSurface",
-      "Checkbox.Focus.Thin.Default": "primary",
-      "Checkbox.Focus.Thin.Selected": "primary",
-      "Checkbox.Focus.Wide": "transparent",
-      "GreyInline": "#b1b6bc",
-      "GreyInline.Dark": "#8C929B",
-      "Objects.BlackText": "#000000ff",
-      "Objects.Blue": "#40B6E0",
-      "Objects.Green": "#59ce61",
-      "Objects.GreenAndroid": "#3DD983",
-      "Objects.Grey": "#AEB9C0",
-      "Objects.Pink": "#DF99FF",
-      "Objects.Purple": "#b926ff",
-      "Objects.Red": "#ee173e",
-      "Objects.RedStatus": "#f62e51",
-      "Objects.Yellow": "#caba2d",
-      "Objects.YellowDark": "#f0de18"
-    }
-  },
-  "name": "JavierSC Dark",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "onSurface76",
@@ -832,6 +801,37 @@
       "SidePanel": {
         "background": "primaryContainer"
       }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#40a0e0",
+      "Actions.Green": "#34ad38",
+      "Actions.Grey": "#979FAD",
+      "Actions.Grey.Dark": "#979FAD",
+      "Actions.GreyInline": "#AEB9C0",
+      "Actions.GreyInline.Dark": "#8C929B",
+      "Actions.Red": "#ca2643",
+      "Actions.Yellow": "#fccb40",
+      "Checkbox.Background.Selected": "background",
+      "Checkbox.Border.Default": "onSurface",
+      "Checkbox.Border.Selected": "onSurface",
+      "Checkbox.Focus.Thin.Default": "primary",
+      "Checkbox.Focus.Thin.Selected": "primary",
+      "Checkbox.Focus.Wide": "transparent",
+      "GreyInline": "#b1b6bc",
+      "GreyInline.Dark": "#8C929B",
+      "Objects.BlackText": "#000000ff",
+      "Objects.Blue": "#40B6E0",
+      "Objects.Green": "#59ce61",
+      "Objects.GreenAndroid": "#3DD983",
+      "Objects.Grey": "#AEB9C0",
+      "Objects.Pink": "#DF99FF",
+      "Objects.Purple": "#b926ff",
+      "Objects.Red": "#ee173e",
+      "Objects.RedStatus": "#f62e51",
+      "Objects.Yellow": "#caba2d",
+      "Objects.YellowDark": "#f0de18"
     }
   }
 }

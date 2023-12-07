@@ -4,6 +4,8 @@
 
 ### Added
 
+- workaround for 2023.3 issue due internal parser in IDEA
+
 ### Changed
 
 ### Deprecated
