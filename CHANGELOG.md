@@ -8,14 +8,14 @@
 
 ### Deprecated
 
-### Removed
-
 ### Fixed
+
+### Removed
 
 ### Updated
 
+- `com.javiersc.hubdle:com.javiersc.hubdle.gradle.plugin -> 0.6.3`
 - `gradle -> 8.6`
-- `com.javiersc.hubdle:com.javiersc.hubdle.gradle.plugin -> 0.6.2`
 
 ## [0.3.3] - 2023-12-07
 
