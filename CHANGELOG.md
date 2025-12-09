@@ -4,8 +4,6 @@
 
 ### Added
 
-- Islands support
-
 ### Changed
 
 ### Deprecated
@@ -13,6 +11,14 @@
 ### Fixed
 
 ### Removed
+
+### Updated
+
+## [0.4.0] - 2025-12-09
+
+### Added
+
+- Islands support
 
 ### Updated
 
@@ -139,7 +145,9 @@
 
 - No changes
 
-[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.3...HEAD
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.4.0...HEAD
+
+[0.4.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.3...0.4.0
 
 [0.3.3]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.2...0.3.3
 
