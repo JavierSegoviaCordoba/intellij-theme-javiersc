@@ -4,6 +4,8 @@
 
 ### Added
 
+- Islands support
+
 ### Changed
 
 ### Deprecated

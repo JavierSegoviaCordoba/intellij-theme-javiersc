@@ -4,7 +4,7 @@
   "dark": true,
   "editorScheme": "/javiersc_dark.xml",
   "colors": {
-    "background": "#1B1F24",
+    "background": "#14171c",
     "debug1": "#f054ff",
     "debug2": "#ca32d8",
     "debug3": "#9e12a9",
@@ -40,7 +40,7 @@
     "outline": "#2F333D",
     "outlineVariant": "#2F333D",
     "primary": "#FFD366",
-    "primaryContainer": "#1B1F24",
+    "primaryContainer": "#14171c",
     "primarySurface0": "#2E323C",
     "primarySurface1": "#373C49",
     "primarySurfaceAlpha0": "#42455380",
@@ -49,7 +49,7 @@
     "secondaryContainer": "#21242B",
     "secondarySurface0": "#2E323C",
     "secondarySurface1": "#373C49",
-    "surface0": "#1B1F24",
+    "surface0": "#14171c",
     "tertiary": "#47bd5a",
     "tertiaryContainer": "#1c2a20",
     "transparent": "#FFFFFF00",
@@ -515,8 +515,7 @@
         "hoverThumbColor": "primarySurfaceAlpha1",
         "hoverTrackColor": "primaryContainer",
         "thumbBorderColor": "primarySurfaceAlpha0",
-        "thumbColor": "primarySurfaceAlpha0",
-        "trackColor": "primaryContainer"
+        "thumbColor": "primarySurfaceAlpha0"
       }
     },
     "ScrollPane": {
@@ -832,6 +831,20 @@
       "Objects.RedStatus": "#f62e51",
       "Objects.Yellow": "#caba2d",
       "Objects.YellowDark": "#f0de18"
+    }
+  },
+  "Islands": 1,
+  "Island": {
+    "arc": 32,
+    "arc.compact": 16,
+    "borderWidth": 8,
+    "borderWidth.compact": 4,
+    "borderColor": "ToolWindowBackground",
+    "inactiveAlpha": 0.44,
+    "inactiveAlphaInStatusBar": {
+      "os.mac": 0.2,
+      "os.windows": 0.2,
+      "os.linux": 0.15
     }
   }
 }
