@@ -1,8 +1,3 @@
-repositories {
-    mavenCentral()
-    maven(url = "https://www.jetbrains.com/intellij-repository/snapshots/")
-}
-
 hubdle {
     config { //
         publishing { //

@@ -1,4 +1,6 @@
-plugins { alias(libs.plugins.javiersc.hubdle) }
+plugins { //
+    alias(libs.plugins.javiersc.hubdle)
+}
 
 hubdle {
     config {
@@ -16,6 +18,5 @@ hubdle {
             }
             site()
         }
-        nexus()
     }
 }
