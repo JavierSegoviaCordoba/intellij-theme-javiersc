@@ -6,6 +6,8 @@
 
 ### Changed
 
+- Plugin ID and any references to IntelliJ
+
 ### Deprecated
 
 ### Fixed

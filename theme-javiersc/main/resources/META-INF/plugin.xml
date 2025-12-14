@@ -1,13 +1,13 @@
 <idea-plugin>
-    <id>com.javiersc.intellij.theme</id>
+    <id>com.javiersc.theme</id>
     <name>Theme - JavierSC</name>
     <vendor>JavierSC</vendor>
-    <description>JavierSC light and dark themes for IntelliJ IDEA</description>
+    <description>JavierSC light and dark themes with Islands support</description>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="com.javiersc.intellij.light" path="javiersc_light.theme.json" />
-        <themeProvider id="com.javiersc.intellij.dark" path="javiersc_dark.theme.json" />
+        <themeProvider id="com.javiersc.theme.light" path="javiersc_light.theme.json" />
+        <themeProvider id="com.javiersc.theme.dark" path="javiersc_dark.theme.json" />
     </extensions>
 </idea-plugin>
