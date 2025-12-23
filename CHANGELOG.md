@@ -6,13 +6,19 @@
 
 ### Changed
 
-- Plugin name
-
 ### Deprecated
 
 ### Fixed
 
 ### Removed
+
+### Updated
+
+## [0.4.1] - 2025-12-23
+
+### Changed
+
+- Plugin name
 
 ### Updated
 
@@ -149,7 +155,9 @@
 
 - No changes
 
-[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.4.0...HEAD
+[Unreleased]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.4.1...HEAD
+
+[0.4.1]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.4.0...0.4.1
 
 [0.4.0]: https://github.com/JavierSegoviaCordoba/intellij-theme-javiersc/compare/0.3.3...0.4.0
 
