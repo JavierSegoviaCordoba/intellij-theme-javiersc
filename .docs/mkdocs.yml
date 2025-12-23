@@ -1,5 +1,5 @@
-site_name: 'IntelliJ IDEA theme - JavierSC'
-site_description: 'JavierSC light and dark themes for IntelliJ IDEA'
+site_name: 'JavierSC Theme'
+site_description: 'JavierSC light and dark themes for IntelliJ IDEA with Islands support'
 site_author: 'Javier Segovia Córdoba'
 remote_branch: gh-pages
 

@@ -6,6 +6,8 @@
 
 ### Changed
 
+- Plugin name
+
 ### Deprecated
 
 ### Fixed

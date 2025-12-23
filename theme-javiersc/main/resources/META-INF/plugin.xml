@@ -2,7 +2,7 @@
     <id>com.javiersc.intellij.theme</id>
     <name>Theme - JavierSC</name>
     <vendor>JavierSC</vendor>
-    <description>JavierSC light and dark themes for IntelliJ IDEA</description>
+    <description>JavierSC light and dark themes with Islands support</description>
 
     <depends>com.intellij.modules.platform</depends>
 
